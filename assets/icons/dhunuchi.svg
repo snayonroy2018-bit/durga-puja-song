@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Dhunuchi Pot -->
+  <path d="M16 28 C16 38 24 44 32 44 C40 44 48 38 48 28 L16 28 Z" fill="currentColor" opacity="0.2"/>
+  <ellipse cx="32" cy="28" rx="16" ry="5"/>
+  <!-- Handle -->
+  <path d="M28 44 L28 58 C28 60 36 60 36 58 L36 44"/>
+  <!-- Smoke curls -->
+  <path d="M26 23 C22 17 28 12 25 6" stroke="#e5a93c" stroke-width="1.8" stroke-dasharray="2 1"/>
+  <path d="M32 23 C34 16 30 11 35 4" stroke="#e5a93c" stroke-width="2"/>
+  <path d="M38 23 C42 17 38 12 41 6" stroke="#e5a93c" stroke-width="1.8" stroke-dasharray="2 1"/>
+  <!-- Incense embers glow -->
+  <circle cx="30" cy="28" r="1.5" fill="#f57c00"/>
+  <circle cx="34" cy="27" r="1.5" fill="#f57c00"/>
+</svg>

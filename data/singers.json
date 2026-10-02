@@ -1,0 +1,533 @@
+[
+  {
+    "id": "kumar-sanu",
+    "name": "Kumar Sanu",
+    "bengaliName": "কুমার শানু",
+    "decades": [
+      "1980s",
+      "1990s",
+      "2000s",
+      "2010s"
+    ],
+    "popularCategories": [
+      "90s",
+      "romantic",
+      "pandal-hopping",
+      "durga-puja"
+    ],
+    "bio": "King of Melody, legendary Bengali & Bollywood playback singer whose Puja special albums defined the 90s.",
+    "isPriority": true
+  },
+  {
+    "id": "kishore-kumar",
+    "name": "Kishore Kumar",
+    "bengaliName": "কিশোর কুমার",
+    "decades": [
+      "1950s",
+      "1960s",
+      "1970s",
+      "1980s"
+    ],
+    "popularCategories": [
+      "old-classics",
+      "80s",
+      "romantic",
+      "pandal"
+    ],
+    "bio": "Iconic cultural phenomenon, undisputed maestro of Bengali modern songs and Puja releases with R.D. Burman.",
+    "isPriority": true
+  },
+  {
+    "id": "hemanta-mukhopadhyay",
+    "name": "Hemanta Mukhopadhyay",
+    "bengaliName": "হেমন্ত মুখোপাধ্যায়",
+    "decades": [
+      "1940s",
+      "1950s",
+      "1960s",
+      "1970s",
+      "1980s"
+    ],
+    "popularCategories": [
+      "old-classics",
+      "agomoni",
+      "mahalaya",
+      "romantic"
+    ],
+    "bio": "The baritone voice of Bengal, revered composer and singer of evergreen classics and Puja anthems.",
+    "isPriority": true
+  },
+  {
+    "id": "asha-bhosle",
+    "name": "Asha Bhosle",
+    "bengaliName": "আশা ভোঁসলে",
+    "decades": [
+      "1960s",
+      "1970s",
+      "1980s",
+      "1990s",
+      "2000s"
+    ],
+    "popularCategories": [
+      "80s",
+      "90s",
+      "romantic",
+      "durga-puja"
+    ],
+    "bio": "Versatile empress of Indian music whose Bengali Puja albums with R.D. Burman and Sudhin Dasgupta are legendary.",
+    "isPriority": true
+  },
+  {
+    "id": "lata-mangeshkar",
+    "name": "Lata Mangeshkar",
+    "bengaliName": "লতা মঙ্গেশকর",
+    "decades": [
+      "1950s",
+      "1960s",
+      "1970s",
+      "1980s"
+    ],
+    "popularCategories": [
+      "old-classics",
+      "romantic",
+      "durga-puja",
+      "agomoni"
+    ],
+    "bio": "Nightingale of India, whose Bengali compositions with Salil Chowdhury and Hemanta Mukherjee are immortal.",
+    "isPriority": true
+  },
+  {
+    "id": "manna-dey",
+    "name": "Manna Dey",
+    "bengaliName": "মান্না দে",
+    "decades": [
+      "1950s",
+      "1960s",
+      "1970s",
+      "1980s",
+      "1990s"
+    ],
+    "popularCategories": [
+      "old-classics",
+      "romantic",
+      "pandal"
+    ],
+    "bio": "Classical virtuoso whose soulful Bengali numbers like 'Coffee Houser Sei Addata' remain eternal.",
+    "isPriority": true
+  },
+  {
+    "id": "shreya-ghoshal",
+    "name": "Shreya Ghoshal",
+    "bengaliName": "শ্রেয়া ঘোষাল",
+    "decades": [
+      "2000s",
+      "2010s",
+      "2020s"
+    ],
+    "popularCategories": [
+      "modern",
+      "2000s",
+      "romantic",
+      "durga-puja"
+    ],
+    "bio": "Modern queen of melody, recipient of multiple National Awards with countless beloved Bengali festive songs.",
+    "isPriority": true
+  },
+  {
+    "id": "alka-yagnik",
+    "name": "Alka Yagnik",
+    "bengaliName": "অলকা ইয়াগনিক",
+    "decades": [
+      "1980s",
+      "1990s",
+      "2000s"
+    ],
+    "popularCategories": [
+      "90s",
+      "2000s",
+      "romantic",
+      "durga-puja"
+    ],
+    "bio": "Iconic playback singer celebrated for unforgettable 90s and 2000s Bengali romantic and Puja duets.",
+    "isPriority": true
+  },
+  {
+    "id": "bappi-lahiri",
+    "name": "Bappi Lahiri",
+    "bengaliName": "বাপ্পি লাহিড়ী",
+    "decades": [
+      "1970s",
+      "1980s",
+      "1990s",
+      "2000s"
+    ],
+    "popularCategories": [
+      "80s",
+      "dhaak",
+      "pandal",
+      "durga-puja"
+    ],
+    "bio": "Pioneer of disco in India and composer of thunderous, energetic Bengali Puja and dhaak festival tracks.",
+    "isPriority": true
+  },
+  {
+    "id": "mita-chatterjee",
+    "name": "Mita Chatterjee",
+    "bengaliName": "মিতা চ্যাটার্জী",
+    "decades": [
+      "1970s",
+      "1980s",
+      "1990s"
+    ],
+    "popularCategories": [
+      "agomoni",
+      "durga-puja",
+      "aarti",
+      "80s"
+    ],
+    "bio": "Renowned Bengali devotional vocalist deeply associated with Agomoni and traditional Puja devotional recordings.",
+    "isPriority": true
+  },
+  {
+    "id": "birendra-krishna-bhadra",
+    "name": "Birendra Krishna Bhadra",
+    "bengaliName": "বীরেন্দ্রকৃষ্ণ ভদ্র",
+    "decades": [
+      "1930s",
+      "1940s",
+      "1950s",
+      "1960s",
+      "1970s"
+    ],
+    "popularCategories": [
+      "mahalaya",
+      "agomoni",
+      "durga-puja"
+    ],
+    "bio": "The legendary voice behind Mahishasura Mardini, whose dawn recitation ushers in Durga Puja for every Bengali.",
+    "isPriority": true
+  },
+  {
+    "id": "sandhya-mukhopadhyay",
+    "name": "Sandhya Mukhopadhyay",
+    "bengaliName": "সন্ধ্যা মুখোপাধ্যায়",
+    "decades": [
+      "1950s",
+      "1960s",
+      "1970s",
+      "1980s"
+    ],
+    "popularCategories": [
+      "old-classics",
+      "agomoni",
+      "romantic",
+      "durga-puja"
+    ],
+    "bio": "Geetashree of Bengal, classic exponent of Bengali romantic modern songs and golden Puja albums.",
+    "isPriority": true
+  },
+  {
+    "id": "arati-mukherjee",
+    "name": "Arati Mukherjee",
+    "bengaliName": "আরতি মুখোপাধ্যায়",
+    "decades": [
+      "1960s",
+      "1970s",
+      "1980s",
+      "1990s"
+    ],
+    "popularCategories": [
+      "agomoni",
+      "durga-puja",
+      "80s",
+      "old-classics"
+    ],
+    "bio": "Celebrated Bengali playback singer acclaimed for timeless Agomoni hymns and golden festive melodies.",
+    "isPriority": true
+  },
+  {
+    "id": "haimanti-shukla",
+    "name": "Haimanti Shukla",
+    "bengaliName": "হৈমন্তী শুক্লা",
+    "decades": [
+      "1970s",
+      "1980s",
+      "1990s",
+      "2000s"
+    ],
+    "popularCategories": [
+      "80s",
+      "durga-puja",
+      "agomoni",
+      "old-classics"
+    ],
+    "bio": "Classical and modern Bengali maestro known for her emotive delivery and beloved Puja releases.",
+    "isPriority": true
+  },
+  {
+    "id": "nachiketa-chakraborty",
+    "name": "Nachiketa Chakraborty",
+    "bengaliName": "নচিকেতা চক্রবর্তী",
+    "decades": [
+      "1990s",
+      "2000s",
+      "2010s"
+    ],
+    "popularCategories": [
+      "90s",
+      "2000s",
+      "pandal",
+      "pandal-hopping"
+    ],
+    "bio": "Revolutionary Bengali singer-songwriter whose Jibonmukhi songs became anthems for Bengali youth.",
+    "isPriority": true
+  },
+  {
+    "id": "srikanta-acharya",
+    "name": "Srikanta Acharya",
+    "bengaliName": "শ্রীকান্ত আচার্য",
+    "decades": [
+      "1990s",
+      "2000s",
+      "2010s",
+      "2020s"
+    ],
+    "popularCategories": [
+      "90s",
+      "2000s",
+      "romantic",
+      "agomoni"
+    ],
+    "bio": "Leading romantic and contemporary Bengali vocalist with an unmatched soothing timbre and poetic cadence.",
+    "isPriority": true
+  },
+  {
+    "id": "rupankar-bagchi",
+    "name": "Rupankar Bagchi",
+    "bengaliName": "রূপঙ্কর বাগচী",
+    "decades": [
+      "2000s",
+      "2010s",
+      "2020s"
+    ],
+    "popularCategories": [
+      "2000s",
+      "modern",
+      "romantic",
+      "pandal"
+    ],
+    "bio": "National Award-winning singer and songwriter synonymous with modern Kolkata romantic melodies.",
+    "isPriority": true
+  },
+  {
+    "id": "shaan",
+    "name": "Shaan",
+    "bengaliName": "শান",
+    "decades": [
+      "1990s",
+      "2000s",
+      "2010s",
+      "2020s"
+    ],
+    "popularCategories": [
+      "2000s",
+      "modern",
+      "romantic",
+      "pandal-hopping"
+    ],
+    "bio": "High-energy, charismatic vocalist celebrated for spirited Bengali Puja dance hits and melodious ballads.",
+    "isPriority": true
+  },
+  {
+    "id": "sonu-nigam",
+    "name": "Sonu Nigam",
+    "bengaliName": "সনু নিগম",
+    "decades": [
+      "1990s",
+      "2000s",
+      "2010s"
+    ],
+    "popularCategories": [
+      "2000s",
+      "romantic",
+      "pandal",
+      "durga-puja"
+    ],
+    "bio": "Virtuoso vocalist who delivered some of the greatest modern Bengali movie songs and festive albums.",
+    "isPriority": true
+  },
+  {
+    "id": "udit-narayan",
+    "name": "Udit Narayan",
+    "bengaliName": "উদিত নারায়ণ",
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "popularCategories": [
+      "90s",
+      "2000s",
+      "romantic",
+      "pandal"
+    ],
+    "bio": "Legendary singer whose joyous tone graces numerous blockbuster 90s and 2000s Bengali romantic hits.",
+    "isPriority": true
+  },
+  {
+    "id": "arijit-singh",
+    "name": "Arijit Singh",
+    "bengaliName": "অরিজিৎ সিং",
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "popularCategories": [
+      "modern",
+      "romantic",
+      "pandal-hopping",
+      "durga-puja"
+    ],
+    "bio": "Global icon from Jiaganj, Murshidabad whose soul-stirring Bengali melodies rule festive playlists worldwide.",
+    "isPriority": true
+  },
+  {
+    "id": "shyamal-mitra",
+    "name": "Shyamal Mitra",
+    "bengaliName": "শ্যামল মিত্র",
+    "decades": [
+      "1950s",
+      "1960s",
+      "1970s",
+      "1980s"
+    ],
+    "popularCategories": [
+      "old-classics",
+      "romantic",
+      "durga-puja"
+    ],
+    "bio": "Melodious composer and vocalist of the golden era, beloved for romantic Puja hits.",
+    "isPriority": false
+  },
+  {
+    "id": "manabendra-mukhopadhyay",
+    "name": "Manabendra Mukhopadhyay",
+    "bengaliName": "মানবেন্দ্র মুখোপাধ্যায়",
+    "decades": [
+      "1950s",
+      "1960s",
+      "1970s",
+      "1980s"
+    ],
+    "popularCategories": [
+      "old-classics",
+      "agomoni",
+      "durga-puja"
+    ],
+    "bio": "Classical master whose Shyama Sangeet and Puja devotionals remain pillars of Bengali music.",
+    "isPriority": false
+  },
+  {
+    "id": "monali-thakur",
+    "name": "Monali Thakur",
+    "bengaliName": "মোনালী ঠাকুর",
+    "decades": [
+      "2000s",
+      "2010s",
+      "2020s"
+    ],
+    "popularCategories": [
+      "modern",
+      "romantic",
+      "durga-puja"
+    ],
+    "bio": "Vibrant Bengali vocalist famed for upbeat Puja tracks and emotive melodies.",
+    "isPriority": false
+  },
+  {
+    "id": "iman-chakraborty",
+    "name": "Iman Chakraborty",
+    "bengaliName": "ইমান চক্রবর্তী",
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "popularCategories": [
+      "modern",
+      "agomoni",
+      "durga-puja",
+      "dhaak"
+    ],
+    "bio": "National Award winner renowned for high-energy Bengali folk-fusion and soulful Puja releases.",
+    "isPriority": false
+  },
+  {
+    "id": "lopamudra-mitra",
+    "name": "Lopamudra Mitra",
+    "bengaliName": "লোপামুদ্রা মিত্র",
+    "decades": [
+      "1990s",
+      "2000s",
+      "2010s"
+    ],
+    "popularCategories": [
+      "90s",
+      "2000s",
+      "agomoni",
+      "pandal"
+    ],
+    "bio": "Powerful voice in Bengali modern songs, Rabindra Sangeet, and festive folk arrangements.",
+    "isPriority": false
+  },
+  {
+    "id": "somlata-acharyya",
+    "name": "Somlata Acharyya Chowdhury",
+    "bengaliName": "সোমলতা আচার্য্য",
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "popularCategories": [
+      "modern",
+      "romantic",
+      "pandal-hopping"
+    ],
+    "bio": "Distinctive singer whose fusion and acoustic songs embody modern Kolkata Puja enthusiasm.",
+    "isPriority": false
+  },
+  {
+    "id": "babul-supriyo",
+    "name": "Babul Supriyo",
+    "bengaliName": "বাবুল সুপ্রিয়",
+    "decades": [
+      "1990s",
+      "2000s",
+      "2010s"
+    ],
+    "popularCategories": [
+      "90s",
+      "2000s",
+      "romantic",
+      "durga-puja"
+    ],
+    "bio": "Celebrated playback singer with numerous 90s and 2000s hit Bengali albums and romantic duets.",
+    "isPriority": false
+  },
+  {
+    "id": "indranil-sen",
+    "name": "Indranil Sen",
+    "bengaliName": "ইন্দ্রনীল সেন",
+    "decades": [
+      "1980s",
+      "1990s",
+      "2000s"
+    ],
+    "popularCategories": [
+      "80s",
+      "90s",
+      "durga-puja",
+      "romantic"
+    ],
+    "bio": "Acclaimed vocalist renowned for melodious modern Bengali albums and nostalgic Puja themes.",
+    "isPriority": false
+  }
+]

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Cassette Shell -->
+  <rect x="6" y="16" width="52" height="34" rx="4" fill="currentColor" opacity="0.15"/>
+  <!-- Label area -->
+  <rect x="12" y="20" width="40" height="22" rx="2"/>
+  <!-- Tape window -->
+  <rect x="20" y="25" width="24" height="12" rx="2" fill="currentColor" opacity="0.3"/>
+  <!-- Spools -->
+  <circle cx="26" cy="31" r="3.5"/>
+  <circle cx="38" cy="31" r="3.5"/>
+  <circle cx="26" cy="31" r="1.5" fill="currentColor"/>
+  <circle cx="38" cy="31" r="1.5" fill="currentColor"/>
+  <!-- Tape bottom trapezoid -->
+  <path d="M16 46 L20 50 L44 50 L48 46"/>
+</svg>

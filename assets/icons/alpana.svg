@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="1.5">
+  <!-- Traditional Bengali Alpana Mandala Motif -->
+  <circle cx="50" cy="50" r="46" stroke-dasharray="3 3"/>
+  <circle cx="50" cy="50" r="38"/>
+  <circle cx="50" cy="50" r="26"/>
+  <circle cx="50" cy="50" r="10" fill="currentColor" opacity="0.2"/>
+  <!-- Petals 8-fold symmetry -->
+  <path d="M50 12 C55 22 55 26 50 36 C45 26 45 22 50 12 Z" fill="currentColor" opacity="0.15"/>
+  <path d="M50 64 C55 74 55 78 50 88 C45 78 45 74 50 64 Z" fill="currentColor" opacity="0.15"/>
+  <path d="M12 50 C22 55 26 55 36 50 C26 45 22 45 12 50 Z" fill="currentColor" opacity="0.15"/>
+  <path d="M64 50 C74 55 78 55 88 50 C78 45 74 45 64 50 Z" fill="currentColor" opacity="0.15"/>
+  <path d="M23 23 C33 28 35 32 39 39 C32 35 28 33 23 23 Z" fill="currentColor" opacity="0.15"/>
+  <path d="M77 23 C67 28 65 32 61 39 C68 35 72 33 77 23 Z" fill="currentColor" opacity="0.15"/>
+  <path d="M23 77 C33 72 35 68 39 61 C32 65 28 67 23 77 Z" fill="currentColor" opacity="0.15"/>
+  <path d="M77 77 C67 72 65 68 61 61 C68 65 72 67 77 77 Z" fill="currentColor" opacity="0.15"/>
+  <!-- Decorative Kalkas -->
+  <circle cx="50" cy="50" r="4" fill="currentColor"/>
+</svg>

@@ -1,0 +1,240 @@
+[
+  {
+    "id": "agomoni",
+    "name": "Agomoni",
+    "bengaliName": "আগমনী গান",
+    "icon": "🌺",
+    "tagline": "শিউলি আর কাশফুলের মিষ্টি ভোরে মায়ের আগমন",
+    "description": "Dawn skies, Kaash phool swaying in autumn breeze, Shiuli blossoms, and the tender welcoming songs of Maa Durga arriving home to Bengal.",
+    "themeClass": "theme-agomoni",
+    "color": "#e0a96d",
+    "badgeColor": "#fdf6e2",
+    "badgeTextColor": "#784b16",
+    "moods": [
+      "devotional",
+      "peaceful",
+      "nostalgic",
+      "morning"
+    ],
+    "targetCount": 50
+  },
+  {
+    "id": "mahalaya",
+    "name": "Mahalaya",
+    "bengaliName": "মহালয়া",
+    "icon": "🌅",
+    "tagline": "আশ্বিনের শারদপ্রাতে মহিষাসুরমর্দিনী",
+    "description": "Pre-dawn blue sky, vintage Akashvani valve radio glow, Birendra Krishna Bhadra's immortal Chandi Path, incense and the divine awakening.",
+    "themeClass": "theme-mahalaya",
+    "color": "#2c405a",
+    "badgeColor": "#1b2838",
+    "badgeTextColor": "#e5c07b",
+    "moods": [
+      "sacred",
+      "nostalgic",
+      "epic",
+      "dawn"
+    ],
+    "targetCount": 100
+  },
+  {
+    "id": "durga-puja",
+    "name": "Durga Puja Songs",
+    "bengaliName": "দুর্গাপূজার গান",
+    "icon": "🔱",
+    "tagline": "দশভুজার মহিমায় মুখরিত চারিপাশ",
+    "description": "Grand idol worship, alpana patterns, fragrant lotus flowers, golden lighting, and timeless Puja celebrations across paras of Bengal.",
+    "themeClass": "theme-durga-puja",
+    "color": "#b71c1c",
+    "badgeColor": "#fbe9e7",
+    "badgeTextColor": "#b71c1c",
+    "moods": [
+      "festive",
+      "devotional",
+      "celebratory"
+    ],
+    "targetCount": 250
+  },
+  {
+    "id": "pandal",
+    "name": "Pandal Songs",
+    "bengaliName": "প্যান্ডেলের গান",
+    "icon": "🛕",
+    "tagline": "মাইকে বাজছে সেরা সব পুজোর গান",
+    "description": "Puja streets, loudspeaker echoes, vibrant crowds, street food aroma, and the unforgettable euphoria around para pandals.",
+    "themeClass": "theme-pandal",
+    "color": "#6a1b9a",
+    "badgeColor": "#f3e5f5",
+    "badgeTextColor": "#6a1b9a",
+    "moods": [
+      "energetic",
+      "festive",
+      "upbeat"
+    ],
+    "targetCount": 250
+  },
+  {
+    "id": "dhaak",
+    "name": "Dhaak & Beats",
+    "bengaliName": "ঢাকের বাদ্য",
+    "icon": "🥁",
+    "tagline": "ঢাকের কাঠি আর ধুনুচি নাচের উন্মাদনা",
+    "description": "Traditional dhaak rhythms by veteran dhakis, dhunuchi naach, kanshi beats, and electrifying percussion resonating in every lane.",
+    "themeClass": "theme-dhaak",
+    "color": "#c62828",
+    "badgeColor": "#ffebee",
+    "badgeTextColor": "#c62828",
+    "moods": [
+      "rhythmic",
+      "percussion",
+      "energetic",
+      "dance"
+    ],
+    "targetCount": 150
+  },
+  {
+    "id": "aarti",
+    "name": "Durga Puja Aarti",
+    "bengaliName": "দুর্গাপূজার আরতি",
+    "icon": "🪔",
+    "tagline": "সন্ধ্যা আরতির প্রদীপ আর ধুনোর ধোঁয়ায় শান্ত মন",
+    "description": "Evening Sandhya Aarti, pradip flames flickering, brass bells ringing, shankha echoes, and fragrant dhunuchi clouds before the goddess.",
+    "themeClass": "theme-aarti",
+    "color": "#e65100",
+    "badgeColor": "#fff3e0",
+    "badgeTextColor": "#e65100",
+    "moods": [
+      "spiritual",
+      "peaceful",
+      "evening"
+    ],
+    "targetCount": 150
+  },
+  {
+    "id": "modern",
+    "name": "Modern Puja",
+    "bengaliName": "আধুনিক পুজোর গান",
+    "icon": "🎧",
+    "tagline": "নতুন প্রজন্মের সুরে শারদোৎসবের আনন্দ",
+    "description": "Contemporary Kolkata sounds, youth indie bands, unplugged Puja releases, vibrant night lights, and fresh festive arrangements.",
+    "themeClass": "theme-modern",
+    "color": "#00838f",
+    "badgeColor": "#e0f7fa",
+    "badgeTextColor": "#00838f",
+    "moods": [
+      "modern",
+      "youthful",
+      "melodic"
+    ],
+    "targetCount": 250
+  },
+  {
+    "id": "80s",
+    "name": "80s Bengali",
+    "bengaliName": "৮০ দশকের গান",
+    "icon": "📻",
+    "tagline": "ক্যাসেটের জমানা আর সাউন্ড ট্র্যাকের সোনালী দিন",
+    "description": "Cassette tapes, old Murphy radios, vintage Kolkata trams, vinyl records, and golden melodious Bengali hits from the 1980s.",
+    "themeClass": "theme-80s",
+    "color": "#795548",
+    "badgeColor": "#efebe9",
+    "badgeTextColor": "#5d4037",
+    "moods": [
+      "retro",
+      "vintage",
+      "nostalgic"
+    ],
+    "targetCount": 200
+  },
+  {
+    "id": "90s",
+    "name": "90s Bengali",
+    "bengaliName": "৯০ দশকের গান",
+    "icon": "📼",
+    "tagline": "পুজো অ্যালবাম আর ওয়াকম্যানের নস্ট্যালজিয়া",
+    "description": "Walkman stereos, Durga Puja special cassette releases, colorful hand-painted posters, and pure 1990s melodious romance.",
+    "themeClass": "theme-90s",
+    "color": "#d84315",
+    "badgeColor": "#fbe9e7",
+    "badgeTextColor": "#bf360c",
+    "moods": [
+      "nostalgic",
+      "romantic",
+      "melodic"
+    ],
+    "targetCount": 300
+  },
+  {
+    "id": "2000s",
+    "name": "2000s Bengali",
+    "bengaliName": "২০০০ দশকের গান",
+    "icon": "💿",
+    "tagline": "সিডি প্লেয়ার, এফএম রেডিও আর নতুন শতাব্দীর মেজাজ",
+    "description": "Compact discs, early FM radio era, college romance, paras decorated with fairy lights, and millennium Bengali hits.",
+    "themeClass": "theme-2000s",
+    "color": "#1565c0",
+    "badgeColor": "#e3f2fd",
+    "badgeTextColor": "#0d47a1",
+    "moods": [
+      "nostalgic",
+      "pop",
+      "acoustic"
+    ],
+    "targetCount": 300
+  },
+  {
+    "id": "old-classics",
+    "name": "Old Bengali Classics",
+    "bengaliName": "পুরনো বাংলা গান",
+    "icon": "🎶",
+    "tagline": "সোনালী যুগের কালজয়ী অমর সৃষ্টি",
+    "description": "Gramophone discs, black-and-white cinema magic, Hemanta, Kishore, Manna, Sandhya and the immortal golden era of Bengali music.",
+    "themeClass": "theme-old-classics",
+    "color": "#37474f",
+    "badgeColor": "#eceff1",
+    "badgeTextColor": "#263238",
+    "moods": [
+      "classic",
+      "poetic",
+      "timeless"
+    ],
+    "targetCount": 200
+  },
+  {
+    "id": "pandal-hopping",
+    "name": "Pandal Hopping",
+    "bengaliName": "ঠাকুর দেখতে যাওয়ার গান",
+    "icon": "🚶‍♂️",
+    "tagline": "বন্ধু-আড্ডায় ট্যাক্সি, মেট্রো আর সারারাত ঘোরা",
+    "description": "All-night pandal hopping with friends, yellow taxi rides, Kolkata Metro rush, fuchka stalls, and sleepless festive nights.",
+    "themeClass": "theme-pandal-hopping",
+    "color": "#f57f17",
+    "badgeColor": "#fffde7",
+    "badgeTextColor": "#f57f17",
+    "moods": [
+      "adventurous",
+      "upbeat",
+      "night",
+      "energetic"
+    ],
+    "targetCount": 150
+  },
+  {
+    "id": "romantic",
+    "name": "Romantic Puja",
+    "bengaliName": "পুজোর প্রেম",
+    "icon": "❤️",
+    "tagline": "আলোয় ভরা সন্ধ্যা আর মনের মানুষের সাথে হাঁটা",
+    "description": "Couple silhouettes by illuminated pandals, soft bokeh reflections on the Hooghly river, stolen glances, and soulful Bengali love songs.",
+    "themeClass": "theme-romantic",
+    "color": "#ad1457",
+    "badgeColor": "#fce4ec",
+    "badgeTextColor": "#880e4f",
+    "moods": [
+      "romantic",
+      "emotional",
+      "sweet"
+    ],
+    "targetCount": 300
+  }
+]

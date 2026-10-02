@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Dhaak drum body -->
+  <ellipse cx="32" cy="18" rx="20" ry="7" fill="currentColor" opacity="0.2"/>
+  <path d="M12 18 C10 32 10 42 16 50 C20 54 26 56 32 56 C38 56 44 54 48 50 C54 42 54 32 52 18" fill="currentColor" opacity="0.1"/>
+  <ellipse cx="32" cy="50" rx="16" ry="6"/>
+  <!-- Tension ropes -->
+  <path d="M14 20 L22 52 M24 23 L32 56 M34 23 L42 52 M44 21 L50 48 M50 20 L38 55 M40 23 L28 55 M28 23 L18 50"/>
+  <!-- Kash feathers plume on side -->
+  <path d="M48 24 C56 18 60 10 56 6 C52 10 46 16 46 22" stroke="#e5a93c" stroke-width="2"/>
+  <path d="M50 28 C58 24 62 16 58 12" stroke="#e5a93c" stroke-width="1.5"/>
+  <!-- Drumsticks (Kathi) -->
+  <line x1="8" y1="12" x2="28" y2="24" stroke="currentColor" stroke-width="2.5"/>
+  <circle cx="8" cy="12" r="2" fill="currentColor"/>
+</svg>

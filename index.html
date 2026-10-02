@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Durga Puja Song — Bengali Puja Music, Mahalaya, Agomoni & Pandal Songs | দুর্গাপূজার গান</title>
+  <meta name="description" content="Listen to Bengali Durga Puja songs, Agomoni, Mahalaya, Dhaak, Aarti, Bengali classics, Puja nostalgia, romantic songs, and music from the 80s, 90s and 2000s." />
+  <meta name="keywords" content="Durga Puja song, দুর্গাপূজার গান, Agomoni gaan, Mahalaya, Birendra Krishna Bhadra, Bengali Puja songs, Dhaak beats, Pandal songs, Bengali 90s songs, Bengali classics, Kolkata Durga Puja radio" />
+  <meta name="author" content="Durga Puja Song" />
+  <meta name="theme-color" content="#b71c1c" />
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="music.radio_station" />
+  <meta property="og:title" content="Durga Puja Song — দুর্গাপূজার গান" />
+  <meta property="og:description" content="পুজোর গান • পুজোর স্মৃতি • পুজোর আবেগ — বাঙালির সবচেয়ে প্রিয় পাঁচ দিনের সুর।" />
+  <meta property="og:image" content="./assets/icons/trishul.svg" />
+  <meta property="og:locale" content="bn_IN" />
+
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="./manifest.json" />
+  <link rel="icon" type="image/svg+xml" href="./assets/icons/trishul.svg" />
+  <link rel="apple-touch-icon" href="./assets/icons/trishul.svg" />
+
+  <!-- Google Fonts Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- Application Stylesheets -->
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/themes.css" />
+  <link rel="stylesheet" href="./css/animations.css" />
+  <link rel="stylesheet" href="./css/responsive.css" />
+
+  <!-- YouTube IFrame API -->
+  <script src="https://www.youtube.com/iframe_api"></script>
+</head>
+<body class="theme-durga-puja">
+
+  <!-- Dynamic Atmospheric Background & Canvas Particles -->
+  <div id="app-background">
+    <div id="bg-pattern-layer"></div>
+    <div id="bg-art-layer"></div>
+    <canvas id="particle-canvas"></canvas>
+  </div>
+
+  <!-- Application Shell -->
+  <div id="app-shell">
+
+    <!-- Top Sticky Navigation Bar -->
+    <header class="top-navbar" role="banner">
+      <div class="brand-wrapper" id="nav-brand-btn" title="হোমে ফিরে যান">
+        <div class="brand-durga-emblem">
+          <img src="./assets/icons/durga-eyes.svg" class="brand-durga-eyes" alt="Maa Durga Trinetra" />
+        </div>
+        <div class="brand-titles">
+          <span class="brand-bn">দুর্গাপূজার গান</span>
+          <span class="brand-en">DURGA PUJA SONG • শারদোৎসব</span>
+        </div>
+      </div>
+
+      <!-- Live Puja Countdown & Bengali Quote Ticker -->
+      <div class="nav-center-widget">
+        <div class="puja-countdown-badge" id="puja-countdown-badge">
+          <img src="./assets/icons/pradip.svg" class="countdown-icon" alt="Pradip" />
+          <span id="puja-countdown-text">পুজো আসতে আর...</span>
+        </div>
+        <div class="quote-rotator" id="nav-quote-rotator">“পুজো আসছে...”</div>
+      </div>
+
+
+
+      <!-- Action Buttons -->
+      <div class="nav-actions">
+        <button class="btn-nav-action btn-nav-radio" data-mode="radio" title="পুজোর রেডিও চালু করুন" id="btn-radio-toggle">
+          <span>📻</span>
+          <span>রেডিও চালান</span>
+        </button>
+        <button class="btn-nav-action" id="btn-nav-favorites" title="আমার পছন্দের পুজোর গান">
+          <span>❤️</span>
+          <span>পছন্দ</span>
+        </button>
+        <button class="btn-nav-action" id="btn-open-admin" title="অ্যাডমিন ও ক্যাটালগ ম্যানেজমেন্ট">
+          <span>⚙️</span>
+          <span>ক্যাটালগ</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Main Content Grid (3-Column Desktop / Responsive Mobile) -->
+    <main class="main-layout" role="main">
+
+      <!-- LEFT SIDEBAR: Interactive Modes & 13 Cultural Categories -->
+      <aside class="sidebar-left" aria-label="ক্যাটাগরি">
+
+        <!-- Category Navigation Panel -->
+        <div class="sidebar-panel">
+          <div class="panel-heading">
+            <span>গানের ধরন</span>
+            <span>CATEGORIES</span>
+          </div>
+          <nav class="category-nav-list" id="category-list-container">
+            <!-- Populated dynamically via JS -->
+          </nav>
+        </div>
+
+      </aside>
+
+      <!-- CENTER CONTENT: Stage Player, Visualizer & Song Catalog -->
+      <section class="center-content">
+
+        <!-- Stage Player: Retro Radio / Cassette Visualizer -->
+        <div class="player-stage" id="player-stage">
+          <div class="player-durga-aura"></div>
+          
+          <!-- Radio Deck & Analog Decade Tuner Dial -->
+          <div class="radio-retro-deck">
+            <div class="radio-brand-badge">
+              <img src="./assets/icons/radio.svg" style="width: 18px; height: 18px;" alt="Radio" />
+              <span>AKASHVANI DIAL • শারদ সুর</span>
+            </div>
+            <div class="radio-tuner-dial" id="radio-decade-dial">
+              <span class="dial-step active" data-decade="all">ALL</span>
+              <span class="dial-step" data-decade="OLD">OLD</span>
+              <span class="dial-step" data-decade="1980s">80s</span>
+              <span class="dial-step" data-decade="1990s">90s</span>
+              <span class="dial-step" data-decade="2000s">00s</span>
+              <span class="dial-step" data-decade="Modern">MODERN</span>
+            </div>
+          </div>
+
+          <!-- Artwork & Track Showcase -->
+          <div class="stage-deck-layout">
+            
+            <div class="artwork-container">
+              <img id="stage-artwork-img" class="artwork-img" src="./assets/icons/trishul.svg" alt="Album Art" />
+              <!-- 80s/90s Cassette Deck Spool Overlay -->
+              <div class="cassette-overlay">
+                <div class="cassette-spools">
+                  <div class="cassette-spool"></div>
+                  <div class="cassette-spool"></div>
+                </div>
+                <span style="font-size: 0.68rem; letter-spacing: 1.5px; color: #fff;">PUJA CASSETTE SPECIAL</span>
+              </div>
+            </div>
+
+            <div class="track-showcase" id="track-showcase-container">
+              <div class="track-category-tag" id="track-category-badge">দুর্গাপূজার গান</div>
+              <h1 class="track-title-bn" id="track-title-bn">বাজল তোমার আলোর বেণু</h1>
+              <div class="track-title-en" id="track-title-en">Bajlo Tomar Alor Benu</div>
+              <div class="track-singers" id="track-singers">বীরেন্দ্রকৃষ্ণ ভদ্র / সুপ্রীতি ঘোষ</div>
+              
+              <div class="track-meta-chips">
+                <span class="meta-chip" id="track-meta-year">মহালয়া স্পেশাল</span>
+                <span class="meta-chip" id="track-meta-album">Saregama Bengali</span>
+                <span class="meta-chip">অফিসিয়াল অডিও</span>
+              </div>
+
+              <!-- Animated Equalizer Visualizer -->
+              <div class="visualizer-wrapper">
+                <div class="eq-bar"></div>
+                <div class="eq-bar"></div>
+                <div class="eq-bar"></div>
+                <div class="eq-bar"></div>
+                <div class="eq-bar"></div>
+                <div class="eq-bar"></div>
+                <div class="eq-bar"></div>
+                <div class="eq-bar"></div>
+              </div>
+
+              <!-- Timeline Scrubber -->
+              <div class="timeline-container">
+                <span class="time-label" id="time-current">0:00</span>
+                <div class="scrubber-bar" id="scrubber-bar">
+                  <div class="scrubber-progress" id="scrubber-progress">
+                    <div class="scrubber-thumb"></div>
+                  </div>
+                </div>
+                <span class="time-label" id="time-duration">0:00</span>
+              </div>
+
+              <!-- Primary Playback Controls -->
+              <div class="controls-deck">
+                <div class="controls-left">
+                  <button class="btn-ctrl" id="btn-shuffle" title="স্মার্ট শাফল (Smart Shuffle)">🔀</button>
+                  <button class="btn-ctrl" id="btn-repeat" title="গান পুনরাবৃত্তি (Repeat)">🔁</button>
+                </div>
+
+                <div class="controls-center">
+                  <button class="btn-ctrl btn-ctrl-prev" id="btn-main-prev" title="আগের গান">⏮</button>
+                  <button class="btn-ctrl btn-ctrl-main btn-ctrl-play" id="btn-main-play" title="চালান / থামান">▶</button>
+                  <button class="btn-ctrl btn-ctrl-next" id="btn-main-next" title="পরের গান">⏭</button>
+                </div>
+
+                <div class="controls-right">
+                  <button class="btn-ctrl" id="btn-main-fav" title="পছন্দের গান">🤍</button>
+                  <button class="btn-ctrl" id="btn-main-share" title="গানের লিংক শেয়ার করুন">🔗</button>
+                  <div class="volume-control">
+                    <button class="btn-ctrl" id="btn-mute" title="সাউন্ড বন্ধ">🔊</button>
+                    <input type="range" class="volume-slider" id="volume-slider" min="0" max="100" value="80" title="ভলিউম" />
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Song Catalog Section -->
+        <div class="catalog-section">
+          
+          
+
+          <!-- Virtualized / Chunked Song List -->
+          <div class="song-list-container" id="song-list-container">
+            <!-- Song cards populated dynamically -->
+          </div>
+
+          <!-- Load More Trigger -->
+          <div class="load-more-wrapper">
+            <button class="btn-load-more" id="btn-load-more">আরও গান দেখুন (Load More)</button>
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- RIGHT SIDEBAR: Now Playing, Up Next, Bengali Quotes, Singers -->
+      <aside class="sidebar-right" aria-label="পরবর্তী গান ও তথ্য">
+
+        <!-- Up Next Interactive Queue -->
+        <div class="sidebar-panel">
+          <div class="panel-heading">
+            <span>পরের গান</span>
+            <span>UP NEXT</span>
+          </div>
+          <div class="up-next-list" id="up-next-container">
+            <!-- Dynamically populated -->
+          </div>
+        </div>
+
+        <!-- Dynamic Bengali Quote Card -->
+        <div class="quote-card">
+          <div class="quote-content-wrapper">
+            <div class="quote-tag-badge">🌸 শারদ স্মৃতি</div>
+            <div class="quote-text-bn" id="sidebar-quote-text">“মহালয়ার ভোর মনে আছে?”</div>
+            <div class="quote-subtext-bn" id="sidebar-quote-subtext">কুয়াশা ঘেরা সকালে বীরেন্দ্রকৃষ্ণ ভদ্রের চণ্ডীপাঠ আর শিউলির গন্ধ</div>
+          </div>
+        </div>
+
+        <!-- Priority Singers Directory -->
+        <div class="sidebar-panel singers-directory-panel">
+          <div class="panel-heading singers-panel-header">
+            <div class="heading-left-flex">
+              <span>কিংবদন্তি শিল্পী</span>
+            </div>
+            <span class="singers-count-pill" id="singers-count-badge">২৯ জন</span>
+          </div>
+          <div class="singers-avatar-grid" id="singers-avatar-grid">
+            <!-- Dynamically populated -->
+          </div>
+        </div>
+
+        <!-- Cultural Mission & Disclaimer -->
+        <div class="sidebar-panel about-mission-panel">
+          <div class="about-panel-header">
+            <img src="./assets/icons/durga-eyes.svg" class="about-durga-icon" alt="" />
+            <strong style="color: var(--gold-light);">দুর্গাপূজার গান সম্পর্কে</strong>
+          </div>
+          <p class="about-panel-desc">বাঙালির সবচেয়ে প্রিয় শারদোৎসবের আবহ, সুর ও স্মৃতিকে উদযাপন করতে দুর্গাপূজার গান তৈরি করা হয়েছে। গানগুলো অফিসিয়াল ইউটিউব এমবেডেড প্লেয়ারের মাধ্যমে পরিবেশন করা হয়। সর্বস্বত্ব সংশ্লিষ্ট শিল্পী, সুরকার ও রেকর্ড লেবেলের সংরক্ষিত।</p>
+          <div class="about-festival-flourish">✨ শুভ শারদীয়া • আনন্দময়ীর আগমনী ✨</div>
+        </div>
+
+      </aside>
+
+    </main>
+
+    <!-- Sticky Bottom Player Bar (Persistent on all screens) -->
+    <div class="bottom-sticky-player" role="region" aria-label="অডিও প্লেয়ার">
+      <div class="bottom-player-grid">
+        
+        <div class="mini-track-info">
+          <img id="mini-thumb-img" class="mini-thumb" src="./assets/icons/trishul.svg" alt="Song thumbnail" />
+          <div class="mini-text">
+            <span class="mini-title" id="mini-track-title">বাজল তোমার আলোর বেণু</span>
+            <span class="mini-singer" id="mini-track-singer">বীরেন্দ্রকৃষ্ণ ভদ্র</span>
+          </div>
+        </div>
+
+        <div class="mini-controls-center">
+          <div class="mini-ctrl-buttons">
+            <button class="btn-ctrl btn-ctrl-prev" id="btn-mini-prev" title="আগের গান">⏮</button>
+            <button class="btn-ctrl btn-ctrl-play" id="btn-mini-play" title="চালান / থামান" style="font-size: 1.2rem;">▶</button>
+            <button class="btn-ctrl btn-ctrl-next" id="btn-mini-next" title="পরের গান">⏭</button>
+          </div>
+          <div class="mini-timeline">
+            <div class="scrubber-bar" style="height: 4px;">
+              <div class="scrubber-progress" id="mini-scrubber-progress"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mini-controls-right" style="display: flex; justify-content: flex-end; align-items: center; gap: 0.8rem;">
+          <button class="btn-nav-radio" data-mode="radio" style="padding: 0.3rem 0.8rem; font-size: 0.8rem;" title="পুজোর রেডিও">
+            📻 রেডিও
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Hidden Controlled YouTube Player Container -->
+  <div id="youtube-player-container"></div>
+
+  <!-- Bengali Toast Notifications Container -->
+  <div id="toast-container" aria-live="polite"></div>
+
+  <!-- First-Run Opening Screen Welcome Modal -->
+  <div class="modal-backdrop" id="welcome-modal" role="dialog" aria-modal="true">
+    <div class="welcome-card">
+      <img src="./assets/icons/trishul.svg" class="welcome-trishul" alt="Maa Durga Trishul" />
+      <div class="welcome-title-en">DURGA PUJA SONG</div>
+      <h2 class="welcome-title-bn">দুর্গাপূজার গান</h2>
+      <p class="welcome-tagline">পুজোর গান • পুজোর স্মৃতি • পুজোর আবেগ</p>
+      <p class="welcome-subtext">বাঙালির সবচেয়ে প্রিয় পাঁচ দিনের সুর</p>
+
+      <div class="welcome-buttons">
+        <button class="btn-cta-primary" id="btn-welcome-start">
+          ▶ পুজোর গান শুরু করুন
+        </button>
+        <button class="btn-cta-secondary" id="btn-welcome-choose">
+          গানের ধরন বেছে নিন
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Admin & Data Management Console Modal -->
+  <div class="modal-backdrop" id="admin-modal" role="dialog" aria-modal="true">
+    <div class="welcome-card" style="max-width: 680px; text-align: left;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.2rem; border-bottom: 1px solid var(--surface-glass-border); padding-bottom: 0.8rem;">
+        <h3 style="font-size: 1.4rem; color: var(--gold-light);">ক্যাটালগ অ্যাডমিন কনসোল</h3>
+        <button id="btn-close-admin" style="background: none; border: none; color: var(--ivory-cream); font-size: 1.5rem; cursor: pointer;">✕</button>
+      </div>
+
+      <div id="admin-stats-summary">
+        <!-- Stats populated dynamically -->
+      </div>
+
+      <div style="display: flex; gap: 1rem; margin-top: 1.2rem; flex-wrap: wrap;">
+        <button id="admin-export-btn" class="btn-nav-action" style="padding: 0.6rem 1.2rem;">
+          📥 ক্যাটালগ এক্সপোর্ট করুন (JSON)
+        </button>
+        <label class="btn-nav-action" style="padding: 0.6rem 1.2rem; cursor: pointer;">
+          📤 ক্যাটালগ ইম্পোর্ট করুন (JSON/CSV)
+          <input type="file" id="admin-import-file" accept=".json,.csv" style="display: none;" />
+        </label>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main ES6 JavaScript Application Entrypoint -->
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,269 @@
+Total found: 268
+dps_000001 | agomoni | Agomoni Gaan 2024 | আগমনী গান | ['sudhamoy karmakar'] | Modern | 2024
+dps_000002 | agomoni | Agomoni Aalo | আগমনী আলো | ['Jayati Chakraborty'] | Modern | None
+dps_000003 | agomoni | Agomoni Gaan 2024 | আগমনী গান | ['sudhamoy karmakar'] | Modern | 2024
+dps_000007 | agomoni | Agomoni Gaan 2026 | আগমনী গান | ['sudhamoy karmakar'] | Modern | 2026
+dps_000008 | agomoni | Ailo Uma Barite | আইলো উমা বাড়িতে | ['MONAMI GHOSH'] | Modern | None
+dps_000010 | agomoni | Agomoni song 2025 | আগমনী গান | ['Sangeet By Sangita'] | Modern | 2025
+dps_000013 | agomoni | Ogo Amar Agamani Alo with lyrics | দুর্গা পুজোর গান | ['Various Artists'] | Modern | None
+dps_000014 | agomoni | Durgaar Agomoni |  | ['Bhavna Records & Cassettes'] | Modern | None
+dps_000016 | mahalaya | Mahalaya | মহিষাসুরমর্দ্দিনী | ['Birendra Krishna Bhadra'] | Old Classics | None
+dps_000017 | agomoni | Maa Go Tui |  | ['Various Artists'] | Modern | None
+dps_000018 | agomoni | Amar Uma | আমার উমা | ['Aditi Munshi'] | Modern | None
+dps_000019 | agomoni | Gouri Elo Re | গৌরী এলো রে | ['Various Artists'] | Modern | 2026
+dps_000020 | agomoni | Agomoni Gaan 2024 | আগমনীর গান | ['Krishna Radhe'] | Modern | 2024
+dps_000021 | agomoni | Agomoni Gaan | আগমনী গান | ['Various Artists'] | Modern | None
+dps_000027 | modern | Agomoni song 2025 | আগমনী গান | ['Dj Gourab'] | Modern | 2025
+dps_000029 | agomoni | Agomoni Gaan 2026 | আগমনী গান | ['গীতি মালা / Geeti Mala'] | Modern | 2026
+dps_000032 | agomoni | Agomoni Gaan I Durgapuja Special I Sounak Chattopadhyay |  | ['Sounak Chattopadhyay'] | Modern | None
+dps_000035 | agomoni | Agamani Gaan Shona Jay (Aashwin) |  | ['Manna Dey'] | Old Classics | None
+dps_000038 | agomoni | Agomoni Sure |  | ['Perennial Records'] | Modern | 2025
+dps_000039 | agomoni | Agamoni |  | ['Various Artists'] | Modern | None
+dps_000040 | agomoni | Agomoni Gaan Vol. 1 |  | ['Perennial Records'] | Modern | 2024
+dps_000042 | agomoni | Durge Durge Durgatinashini |  | ['Asha Bhosle'] | Modern | None
+dps_000043 | agomoni | Agomoni Gaan 2024 | আগমনী গান | ['sudhamoy karmakar'] | Modern | 2024
+dps_000044 | agomoni | Agomoni Gaan 2026 | আগমনী গান | ['JR STUDIO 90s'] | Modern | 2026
+dps_000048 | agomoni | Maa Durgar Agomone | Elo Maa Dugga (এলো মা দুগ্গা) | ['Sibaji Das'] | Modern | None
+dps_000049 | agomoni | Durga Pujor Gaan | Maa Durgar Agomoni Gaan (মা দুর্গার আগমনী গান) | ['Aalo | আলো 🪔'] | Modern | None
+dps_000051 | agomoni | Durga puja Special Songs | আগমনীর গান | ['sudhamoy karmakar'] | Modern | 2024
+dps_000054 | agomoni | Agomoni Gaan | আগমনী গান | ['sudhamoy karmakar'] | Modern | 2023
+dps_000055 | modern | AGOMONI GAN | আগমনীর বাংলাগান | ['Your Broto Lofi'] | Modern | None
+dps_000056 | agomoni | Durga Puja Song Collection | #আগমনীগান​ | ['sudhamoy karmakar'] | Modern | None
+dps_000058 | mahalaya | Mahalaya | Birendra Krishna Bhadra full Chandipath #মহিষাসুরমর্দ্দিনী | ['Birendra Krishna Bhadra'] | Old Classics | None
+dps_000065 | mahalaya | Mahalaya By Birendra Krishna Bhadra Full | মহিষাসুরমর্দ্দিনী | ['Birendra Krishna Bhadra'] | Old Classics | None
+dps_000066 | mahalaya | Mahalaya 2026 | মহিষাসুরমর্দ্দিনী | ['Birendra Krishna Bhadra'] | Modern | 2026
+dps_000068 | mahalaya | Mahalaya Birendra Krishna Bhadra Radio program original mahisashuramardini মহালয়া মহিষাসুরমর্দিনী | Mahalaya Birendra Krishna Bhadra Radio program original mahisashuramardini মহালয়া মহিষাসুরমর্দিনী | ['Birendra Krishna Bhadra'] | Old Classics | None
+dps_000069 | agomoni | Kemon Kore Horer Ghare |  | ['Srikanta Acharya'] | 1990s | 1996
+dps_000072 | agomoni | Ma Go Chinmoyee | মা গো চিন্ময়ী | ['Srikanta Acharya'] | 1990s | 1996
+dps_000101 | mahalaya | Hemanta Mukherjee, Birendra Krishna Bhadra, Ramkumar Chatterjee, Amar Pal & Others | আগমনী | ['Hemanta Mukhopadhyay', 'Birendra Krishna Bhadra'] | Old Classics | None
+dps_000104 | durga-puja | Stotra | Hemant Kumar : হেমন্ত মুখার্জীর | ['Hemanta Mukhopadhyay'] | Old Classics | None
+dps_000123 | romantic | Priyotamo Ki Likhi Tomay | প্রিয়তম, কি লিখি তোমায় | ['Kishore Kumar', 'Lata Mangeshkar'] | Old Classics | None
+dps_000163 | agomoni | Shiuly Talai Sharod Alor |  | ['Haimanti Sukla'] | Modern | None
+dps_000172 | agomoni | Agomoni gaan by Brahma swarupini oma sanatoni |  | ['PRAGYANOG BRAHMA TATTAMASHI'] | Modern | None
+dps_000182 | agomoni | Agomonir Agomone |  | ['Swagatalakshmi Dasgupta'] | Modern | None
+dps_000184 | agomoni | Agomonir Agomone |  | ['Swagatalakshmi Dasgupta'] | Modern | None
+dps_000187 | agomoni | Uma Mukhopadhyay I Joydeep Ray | আগমনী গান | ['Swagatalakshmi Dasgupta'] | Modern | None
+dps_000191 | agomoni | Agomonir Agomone |  | ['Swagatalakshmi Dasgupta'] | Modern | None
+dps_000194 | mahalaya | OGO AMAR AGOMONI +DURGASTAV BY SWAGATALAKSHMI 558TH DEVOTION DURING LOCKDOWN |  | ['Swagatalakshmi Dasgupta'] | Modern | None
+dps_000197 | agomoni | Aagomon Recitation |  | ['Swagatalakshmi Dasgupta'] | Modern | None
+dps_000202 | agomoni | Agomoni Gaan |  | ['Srijan Sanskritik Sanstha'] | Modern | None
+dps_000225 | mahalaya | মহিষাসুরমর্দ্দিনী Mahalaya 2026 Mahisashurmardini Birendra Krishna Bhadra Durga Puja 2026 | মহিষাসুরমর্দ্দিনী Mahalaya 2026 Mahisashurmardini Birendra Krishna Bhadra Durga Puja 2026 | ['Birendra Krishna Bhadra'] | Modern | 2026
+dps_000230 | mahalaya | Mahishasuramardinistotram |  | ['Uma Mohan'] | Modern | None
+dps_000238 | mahalaya | Mahishasurmardini By Birendra Krishna Bhadra | মহিষাসুরমর্দিনী | ['Birendra Krishna Bhadra'] | Modern | 2025
+dps_000252 | mahalaya | Ya Chandi | যা চণ্ডী | ['Suman Ruj'] | Modern | 2025
+dps_000268 | mahalaya | Ogo Amar Agamani Alo |  | ['Birendra Krishna Bhadra'] | Old Classics | None
+dps_000274 | agomoni | Agomoni Gaan 2025 | আগমনী গান | ['sudhamoy karmakar'] | Modern | 2025
+dps_000276 | agomoni | Durga puja song 2023 | আগমনী গান.. Agomoni Song part 2 | ['Various Artists'] | Modern | 2023
+dps_000277 | mahalaya | Ogo Amar Agamani Alo | ওগো আমার আগমনীর আলো | ['Koushik Baidya'] | Modern | None
+dps_000278 | mahalaya | Ogo Amar Agomoni II Mahalaya Song II Mahishasura Mardini II 2021 |  | ['Various Artists'] | Modern | 2021
+dps_000293 | mahalaya | Ogo Amaro Agomoni #durgapuja | ওগো আমার ও আগমনী Slowed + Revarb | ['Mahalaya 14.0 মহালয়া'] | Modern | None
+dps_000294 | mahalaya | Ogo Amar Agomoni Aalo | ওগো আগমনী আলো | ['Debolina Nandy'] | Modern | None
+dps_000297 | mahalaya | Ogo Amar Agamani Alo with lyrics |  | ['Bangla Bhakti Geeti'] | Modern | None
+dps_000298 | mahalaya | Ogo Amar Agomoni by Madhuraa |  | ['Madhuraa'] | Modern | None
+dps_000299 | mahalaya | Ogo Amar Agomoni |  | ['Chetona Cultural Institute - Suchandra'] | Modern | 2021
+dps_000301 | mahalaya | Ogo amar Agomoni X Jaya Jaya japya |  | ['Sanandita Majumder'] | Modern | None
+dps_000303 | mahalaya | Ogo Amar Agomoni |  | ['SOUHARDYA'] | Modern | None
+dps_000309 | mahalaya | Bajlo Tomar Aalor Benu | মহিষাসুরমর্দিনী | ['Jayati Chakraborty'] | Modern | None
+dps_000310 | mahalaya | Bajlo Tomar Aalor Benu | মহিষাসুরমর্দ্দিনী | ['Chulkul Da Vlogs and Bipul Mondal'] | Modern | 2026
+dps_000317 | mahalaya | .. Shuvro Shankho Robe Lyrical Video ll #lyricalvideo #shuvroshankharobe 🔴Part 8🔴 ⚜Uma Varan ⚜ |  | ['আগমনী Creation'] | Modern | None
+dps_000318 | mahalaya | Dance Cover by Subangik | Shubhro Shonkho Robe (শুভ্র শঙ্খ রবে) Medwings Nrityagamani EP 2 | ['Alpona Weddings by Medwings'] | Modern | None
+dps_000324 | mahalaya | 🔶 | সিংহস্থা শশিশেখরা | ['আগমনী Creation'] | Modern | None
+dps_000330 | durga-puja | Amar Sadh Na Mitilo | আমার সাধ না মিটিল | ['Kumar Sanu'] | 1990s | 1996
+dps_000336 | agomoni | Durga Puja Song Collection | #আগমনীগান​ | ['Sangeet By Sangita'] | Modern | None
+dps_000339 | durga-puja | Durga Puja Song Kumar Sanu Bangla Hit Song 2023 Nonstop Top 5 Song Bengali Audio Jukebox 2 |  | ['Kumar Sanu'] | Modern | 2023
+dps_000340 | durga-puja | Durga Puja Bengali Songs 2021 | দুর্গা পূজা বাঙালি গান | ['Kishore Kumar'] | Modern | 2021
+dps_000348 | durga-puja | Top 20 Pujo Hits Of Kishore Kumar |  | ['Kishore Kumar'] | Old Classics | None
+dps_000356 | durga-puja | 60's Classic Bangla Hits |  | ['Kishore Kumar', 'Hemanta Mukhopadhyay', 'Lata Mangeshkar', 'Manna Dey'] | Old Classics | None
+dps_000357 | durga-puja | Top 50 Modern Songs Of Kumar Sanu | টপ ৫০ কুমার সানু | ['Kumar Sanu'] | 1990s | 1996
+dps_000358 | durga-puja | Sera Pujor Gaan |  | ['Kishore Kumar'] | Old Classics | None
+dps_000366 | durga-puja | Doshobhuja Maa Elo |  | ['Kumar Sanu'] | 1990s | 1996
+dps_000368 | durga-puja | Uma Ashe Notun Saje |  | ['Various Artists'] | Modern | None
+dps_000370 | durga-puja | Pujo Music Video @zeebangla | পুজোর গন্ধে, আগমনীর ছন্দে, আসুন যাই ভেসে! | ['Various Artists'] | Modern | None
+dps_000390 | durga-puja | kumartuli sarbojanin theme song 2018 |  | ['kolkata Bits'] | Modern | 2018
+dps_000463 | dhaak | Dhunuchi Dance X Silsila |  | ['Kumar Sharma'] | Modern | None
+dps_000614 | aarti | Ambike Tu Humari Mata Hai with Lyrics |  | ['Babul Supriyo'] | Modern | None
+dps_000701 | pandal-hopping | Gold Printer Saari Pore |  | ['Dj Suman Raj'] | Modern | 2024
+dps_000704 | pandal-hopping | Shyama Sangeet | সেরা ২০টি শ্যামা সংগীত | ['Kumar Sanu'] | Modern | 2024
+dps_000720 | pandal-hopping | E Sohor | এ শহর | ['Nachiketa Chakraborty'] | 1990s | 1996
+dps_000769 | 80s | 80's Darun Gaan |  | ['Kishore Kumar', 'Asha Bhosle', 'Manna Dey'] | 1980s | 1985
+dps_000775 | 80s | 50 Songs Of Uttam Kumar | উত্তমককুমারের সেরা ৫০টি গান | ['Various Artists'] | 1980s | 1985
+dps_000777 | 80s | Bengali Hits from the 70's |  | ['Kishore Kumar', 'Lata Mangeshkar', 'Manna Dey', 'Arati Mukherjee'] | 1980s | 1985
+dps_000778 | 80s | Kishore Kumar |  | ['Kishore Kumar'] | 1980s | 1985
+dps_000780 | 80s | Evergreen Kishore Kumar |  | ['Kishore Kumar'] | 1980s | 1985
+dps_000785 | 80s | Ogo Nirupama Korio Khoma |  | ['Kishore Kumar'] | 1980s | 1985
+dps_000790 | 80s | Bengali Hit Songs | কিশোর কুমারের সেরা গান | ['Kishore Kumar'] | 1980s | 1985
+dps_000791 | 80s | Kishore Kumar Gaan | বাংলা কিশোর কুমারের গান | ['Kishore Kumar'] | 1980s | 1985
+dps_000792 | 80s | Hoyto Amake Karo Mone Nei |  | ['Kishore Kumar'] | 1980s | 1985
+dps_000794 | 80s | Sei Raate Raat Chhilo Purnima | সেই রাতে রাত ছিল পূর্ণিমা | ['Kishore Kumar'] | 1980s | 1985
+dps_000795 | 80s | Kotha Dilam Ami Kotha Dilam |  | ['Kishore Kumar', 'Asha Bhosle'] | 1980s | 1985
+dps_000796 | 80s | E Ki Holo |  | ['Kishore Kumar'] | 1980s | 1985
+dps_000797 | 80s | Dhole Jete Jete |  | ['Kishore Kumar', 'Asha Bhosle'] | 1980s | 1985
+dps_000798 | 80s | 80's Bengali Hit Movie Songs |  | ['Kishore Kumar', 'Asha Bhosle', 'Bappi Lahiri'] | 1980s | 1985
+dps_000802 | 80s | 80's Bengali Hit Movie Songs |  | ['Kishore Kumar', 'Asha Bhosle', 'Lata Mangeshkar'] | 1980s | 1985
+dps_000804 | 80s | Katha Dilam |  | ['Kishore Kumar', 'Asha Bhosle'] | 1980s | 1985
+dps_000828 | 80s | Surer Bhubaney |  | ['Kumar Sanu', 'Asha Bhosle', 'Bappi Lahiri'] | 1980s | 1985
+dps_000849 | 80s | Old Bengali Movie Songs |  | ['Kishore Kumar', 'Asha Bhosle', 'Lata Mangeshkar'] | 1980s | 1985
+dps_000852 | 80s | 80's Bengali Hit Songs Video Jukebox |  | ['Kishore Kumar', 'Asha Bhosle', 'Lata Mangeshkar', 'Bappi Lahiri'] | 1980s | 1985
+dps_000870 | 80s | Old Bangla Songs | কুমার শানুর সেরা হিট গান | ['Kumar Sanu', 'Shaan'] | 1980s | 1985
+dps_000871 | 80s | pujo Song 2024 | কুমার শানু বাংলা গান | ['Kumar Sanu', 'Asha Bhosle', 'Shaan'] | Modern | 2024
+dps_000874 | 80s | Bangla nonstop romantic song | বাংলা গান | ['Kumar Sanu'] | 1980s | 1985
+dps_000875 | 80s | Jotoi Koro Bahana (Solo) |  | ['Kumar Sanu'] | 1980s | 1985
+dps_000876 | 80s | Sundar Tumi Koto |  | ['Kumar Sanu'] | 1980s | 1985
+dps_000877 | 80s | Eso Eso Kache Eso |  | ['Kumar Sanu'] | 1980s | 1985
+dps_000878 | 80s | Tumi Achho Eto Kachhe Tai | তুমি আছো এতো কাছে তাই | ['Kumar Sanu'] | 1980s | 1985
+dps_000879 | 80s | Bangla nonstop romantic song | বাংলা গান | ['Kumar Sanu'] | 1980s | 1985
+dps_000880 | 80s | Old Bangla Songs | কুমার শানুর সেরা হিট গান | ['Kumar Sanu', 'Shaan'] | 1980s | 1985
+dps_000882 | 80s | O Chokhe Amar with lyrics |  | ['Kumar Sanu'] | 1980s | 1985
+dps_000883 | 80s | Kumar Sanu Bengali Songs | কুমার শানুর সেরা হিট বাংলা গান | ['Kumar Sanu', 'Shaan'] | 1980s | 1985
+dps_000884 | 80s | Priyotama Mone Rekho | প্রিয়তমা মনে রেখো | ['Kumar Sanu'] | 1980s | 1985
+dps_000885 | 80s | Bangla nonstop romantic song | বাংলা গান | ['Kumar Sanu'] | 1980s | 1985
+dps_000886 | 80s | Tomra Asbe To | তোমরা আসবে তো | ['Kumar Sanu'] | 1980s | 1985
+dps_000890 | 80s | Old Is Gold | পুরাতনই ভালো | ['Kishore Kumar', 'Asha Bhosle'] | 1980s | 1985
+dps_000893 | 90s | 90's Bangla Golden Hits |  | ['Kumar Sanu', 'Nachiketa Chakraborty', 'Anjan Dutt', 'Kabir Suman'] | 1990s | 1995
+dps_000906 | 90s | Chokher Bhasa Jodi |  | ['Kumar Sanu'] | 1990s | 1995
+dps_000907 | 90s | Tomra Asbe To | তোমরা আসবে তো | ['Kumar Sanu'] | 1990s | 1995
+dps_000908 | 90s | Tumi Achho Eto Kachhe Tai |  | ['Kumar Sanu'] | 1990s | 1995
+dps_000909 | 90s | Best of Kumar Sanu |  | ['Kumar Sanu'] | 1990s | 1995
+dps_000910 | 90s | Bangla nonstop romantic song | বাংলা গান | ['Kumar Sanu'] | 1990s | 1995
+dps_000911 | 90s | সেরা শিল্পীর সেরা গান | সেরা শিল্পীর সেরা গান | ['Kumar Sanu', 'Shaan'] | 1990s | 1995
+dps_000912 | 90s | Kumar Sanu Bengali Hits | কুমার শানুর জনপ্রিয় বাংলা গান | ['Kumar Sanu', 'Shaan'] | 1990s | 1995
+dps_000913 | 90s | Tomra Asbe To | তোমরা আসবে তো | ['Kumar Sanu'] | 1990s | 1995
+dps_000914 | 90s | Bangla nonstop romantic song | বাংলা গান | ['Kumar Sanu'] | 1990s | 1995
+dps_000915 | 90s | 90's Bengali Hit Songs Jukebox |  | ['Kumar Sanu', 'Asha Bhosle', 'Alka Yagnik', 'Bappi Lahiri'] | 1990s | 1995
+dps_000918 | 90s | Durga Puja Song Kumar Sanu Bangla Hit Song 2023 Nonstop Top 5 Song Bengali Audio Jukebox |  | ['Kumar Sanu'] | Modern | 2023
+dps_000919 | 90s | Bhalobasar Galpo | ভালোবাসার গল্প | ['Kumar Sanu'] | 1990s | 1995
+dps_000920 | 90s | Eto Noi Noi | এত নয় নয় | ['Kumar Sanu'] | 1990s | 1995
+dps_000926 | 90s | Best Of Kumar Sanu & Alka Yagnik | কুমার শানু ও অলকা ইয়াগ্নিক এর বাংলা গানগুলো | ['Kumar Sanu', 'Alka Yagnik', 'Shaan'] | 1990s | 1995
+dps_000927 | 90s | Kumar Sanu and Alka Yagnik | তোমায় পেলাম এলো মনে হাজার আলোর বন্যা | ['Kumar Sanu', 'Alka Yagnik'] | 1990s | 1995
+dps_000939 | 90s | 90's Best Trio |  | ['Nachiketa Chakraborty', 'Anjan Dutt', 'Kabir Suman'] | 1990s | 1995
+dps_000994 | 90s | Khelbo Ebar Romance Romance | অলকা ইয়াগ্নিক ও কুমার শানু ডুয়েট | ['Kumar Sanu', 'Bappi Lahiri', 'Shaan'] | 1990s | 1995
+dps_000996 | 90s | Romantic Bengali Film Song Vol 02 |  | ['Kumar Sanu', 'Asha Bhosle', 'Alka Yagnik', 'Bappi Lahiri'] | 1990s | 1995
+dps_000997 | 90s | Amar Swapna Tumi Ogo | আমার স্বপ্ন তুমি | ['Kishore Kumar', 'Asha Bhosle'] | 1990s | 1995
+dps_001054 | 2000s | Jani Tumi Ghumate Paroni | জানি তুমি ঘুমাতে পারোনি | ['Sonu Nigam'] | 2000s | 2005
+dps_001069 | 2000s | Best of Alka Yagnik, Kumar Sanu & Udit Narayan | বাংলা গান | ['Kumar Sanu', 'Alka Yagnik', 'Udit Narayan'] | 2000s | 2005
+dps_001078 | 2000s | 90s Songs Forever |  | ['Kumar Sanu', 'Alka Yagnik', 'Udit Narayan'] | 2000s | 2005
+dps_001106 | 2000s | JEET BEST OF 22 DJ 2026 ❤️ALL SONG HITS |  | ['Suman Das'] | Modern | 2026
+dps_001184 | old-classics | Nayan Sarasi Keno Bhorechhe Jale with lyrics | নয়ন সরসী কেন ভরেছে জলে | ['Kishore Kumar'] | Old Classics | 1970
+dps_001210 | old-classics | Hemant Kumar Songs |  | ['Old Hindi Songs'] | Old Classics | 1970
+dps_001211 | old-classics | Best Of Hemant Kumar |  | ['Old Hindi Songs'] | Old Classics | 1970
+dps_001212 | old-classics | Kishore Kumar Bangla Song | কিশোর কুমার এর সেরা বাংলা গানগুলো | ['Kishore Kumar'] | Old Classics | 1970
+dps_001213 | old-classics | Ore Mon Pagol Tui |  | ['Kishore Kumar'] | Old Classics | 1970
+dps_001214 | old-classics | Sei Raate Raat Chhilo Purnima | কিশোর কুমারের সেরা গান | ['Kishore Kumar'] | Old Classics | 1970
+dps_001215 | old-classics | 95 Minutes Of Kishore Kumar |  | ['Kishore Kumar'] | Old Classics | 1970
+dps_001216 | old-classics | Kishore Kumar Bangla Song | কিশোর কুমার এর সেরা বাংলা গানগুলো | ['Kishore Kumar'] | Old Classics | 1970
+dps_001217 | old-classics | Amar pujar fool | আমার পূজার ফুল | ['Kishore Kumar'] | Old Classics | 1970
+dps_001313 | old-classics | Madhumati Jay Boye Jay | মধুমতী যায় বয়ে যায় | ['Various Artists'] | Old Classics | 1970
+dps_001362 | modern | Pujer Sera Adhunik Gaan |  | ['Agomoni'] | Modern | None
+dps_001429 | modern | Rabindrasangeet |  | ['Somlata Acharyya', 'Anjan Dutt', 'Kabir Suman'] | Modern | None
+dps_001453 | modern | Pujo Music Video @zeebangla | পুজোর গন্ধে, আগমনীর ছন্দে, আসুন যাই ভেসে! | ['Various Artists'] | Modern | None
+dps_001485 | modern | Aaj Ei Dintake With Lyrics |  | ['Kishore Kumar'] | Old Classics | None
+dps_001491 | romantic | Opare Thakbo Ami | ওপারে থাকবো আমি | ['Kishore Kumar'] | Old Classics | None
+dps_001499 | romantic | Ultimate Bengali Hits of Kumar Sanu & Alka Yagnik • Non |  | ['Kumar Sanu', 'Alka Yagnik'] | 1990s | 1996
+dps_001500 | romantic | Ultimate Bengali Hits of Kumar Sanu & Alka Yagnik |  | ['Kumar Sanu', 'Alka Yagnik'] | 1990s | 1996
+dps_001501 | romantic | Tumi Aamar Priyotoma |  | ['Kumar Sanu', 'Alka Yagnik'] | 1990s | 1996
+dps_001502 | romantic | Bangla Romantic Gaan |  | ['Kumar Sanu', 'Alka Yagnik'] | 1990s | 1996
+dps_001503 | romantic | Premeri Sur Kare Gun Gun | প্রেমেরই সুর করে গুনগুন | ['Kumar Sanu', 'Alka Yagnik'] | 1990s | 1996
+dps_001504 | romantic | Super hit Bangla song | সুপার হিট বাংলা গান | ['Kumar Sanu', 'Alka Yagnik', 'Shaan'] | 1990s | 1996
+dps_001505 | romantic | Kumar Sanu Alka Yagnik bengali romantic songs #bangla_old_song #bangla_jonno_priyo_super_hits_song |  | ['Kumar Sanu', 'Alka Yagnik'] | 1990s | 1996
+dps_001506 | romantic | Bangla Romantic Gaan Kumar Sanu Alka Yagnik Romantic Bengali Old Nonstop Song Kumar Sa |  | ['Kumar Sanu', 'Alka Yagnik'] | 1990s | 1996
+dps_001507 | romantic | Sei Falgun To Elo | সেই ফাল্গুন তো এলো | ['Kumar Sanu', 'Alka Yagnik'] | 1990s | 1996
+dps_001508 | romantic | Amar A Monete |  | ['Kumar Sanu', 'Alka Yagnik'] | 1990s | 1996
+dps_001509 | romantic | Amar A monete |  | ['Kumar Sanu', 'Alka Yagnik'] | 1990s | 1996
+dps_001510 | romantic | Kumar Sanu & Alka Yagnik & Shreya Ghoshal Old Bengali Hit Songs |  | ['Kumar Sanu', 'Shreya Ghoshal', 'Alka Yagnik'] | 1990s | 1996
+dps_001511 | romantic | Rimjhim ai | রিমঝিম এই | ['Kumar Sanu', 'Alka Yagnik'] | Modern | 2020
+dps_001523 | romantic | Lyrical Video | সেই রাতে রাত ছিল পূর্ণিমা | ['Kishore Kumar'] | Old Classics | None
+dps_001524 | romantic | Ore Mon Pagol |  | ['Kishore Kumar'] | Old Classics | None
+dps_001525 | romantic | Nayan Sarasi Keno Bhorechhe Jale | কিশোর কুমার | ['Kishore Kumar'] | Old Classics | None
+dps_001586 | 90s | Old Bangla Songs | কুমার শানুর সেরা হিট গান | ['Kumar Sanu', 'Shaan'] | 1990s | 1995
+dps_001587 | 90s | Old Bangla Songs | কুমার শানুর সেরা হিট গান | ['Kumar Sanu', 'Shaan'] | 1990s | 1995
+dps_001588 | 90s | Best of Kumar Sanu | কুমার শানুর কিছু অসাধারণ গান | ['Kumar Sanu', 'Shaan'] | 1990s | 1995
+dps_001589 | 90s | Best Of Kumar Sanu Bangali Song | বেষ্ট অফ কুমার সানু বাংলা সুপারহিট গান | ['Kumar Sanu', 'Shaan'] | 1990s | 1995
+dps_001590 | 90s | Old Bangla Songs | কুমার শানুর সেরা হিট গান | ['Kumar Sanu', 'Shaan'] | 1990s | 1995
+dps_001591 | 90s | Tomra Asbe To | তোমরা আসবে তো | ['Kumar Sanu'] | 1990s | 1995
+dps_001592 | 90s | Kumar Sanu Best Bengali Songs | সেরা বাংলা জনপ্রিয় গান | ['Kumar Sanu'] | 1990s | 1995
+dps_001593 | 90s | Best Of Kumar Sanu Bengali Song | কুমার শানুর বাংলা দুঃখের গান | ['Kumar Sanu', 'Shaan'] | 1990s | 1995
+dps_001594 | 90s | Mon Amaar Ek Notun |  | ['Kumar Sanu'] | 1990s | 1995
+dps_001609 | 90s | jukebox | AMIT KUMAR & ALKA YAGNIK Bengali duet songs অমিত কুমার ও অলকা ইয়াগনিক বাংলা ডুয়েট গান mp3 | ['Alka Yagnik'] | 1990s | 1995
+dps_001616 | agomoni | Mayer Agomoni |  | ['Mita Chatterjee'] | Modern | None
+dps_001619 | agomoni | Evergreen Bengali Songs | Mita Chatterjee Pujo Special Songs 2026 আগমনী গান | ['Mita Chatterjee'] | Modern | 2026
+dps_001632 | old-classics | Kishore Kumar |  | ['Kishore Kumar'] | Old Classics | 1970
+dps_001633 | old-classics | Amar Moner Ei Mayurmahale With Lyrics |  | ['Kishore Kumar'] | Old Classics | 1970
+dps_001634 | old-classics | Weekend Classics Radio Show |  | ['Kishore Kumar'] | Old Classics | 1970
+dps_001694 | 90s | Kumar Sanu and Poornima | প্রেয়সী সেই তো আবার দুজনে দেখা হলো | ['Kumar Sanu'] | 1990s | 1995
+dps_001700 | 90s | Batare Chalu Chalu |  | ['Kumar Sanu', 'Babul Supriyo'] | 1990s | 1995
+dps_001702 | 90s | Sahor Chariye Dure | শহর ছাড়িয়ে দূরে | ['Babul Supriyo'] | 1990s | 1995
+dps_001711 | old-classics | Hemant Kumar Songs | সোনালী যুগের সেরা ১০ বাংলা গান | ['Various Artists'] | Old Classics | 1970
+dps_001713 | old-classics | Uttam Kumar special (Part |  | ['Khorgosh TV'] | Old Classics | 1970
+dps_001800 | old-classics | Carvaan Classic Radio Show |  | ['Kishore Kumar'] | Old Classics | 1970
+dps_001804 | old-classics | Top 5 Songs Of Kumar Sanu & Pulak Banerjee |  | ['Kumar Sanu'] | Old Classics | 1970
+dps_001810 | aarti | 30 Shyama Sangeet Of Pannalal Bhattacharya | পান্নালাল ভট্টাচার্যের সেরা ৩০টি শ্যামাসংগীত | ['Various Artists'] | Modern | None
+dps_001811 | aarti | shyama Sangeet pannalal Bhattacharya | পান্নালাল ভট্টাচার্যের কন্ঠে শ্যামা সঙ্গীত | ['Laltu Sikdar'] | Modern | None
+dps_001812 | aarti | shyama Sangeet pannalal Bhattacharya | পান্নালাল ভট্টাচার্যের কন্ঠে শ্যামা সঙ্গীত | ['মাতৃশক্তি'] | Modern | None
+dps_001824 | aarti | Shyama Sangeet | পান্নালাল ভট্টাচার্যের কন্ঠে শ্যামা সঙ্গীত | ['Various Artists'] | Modern | None
+dps_001827 | aarti | পান্নালাল ভট্টাচার্য শ্যামা সংগীত [] শ্যামা সঙ্গীত [] Pannalal Bhattacharya Shyama Sangeet #কালী | পান্নালাল ভট্টাচার্য শ্যামা সংগীত [] শ্যামা সঙ্গীত [] Pannalal Bhattacharya Shyama Sangeet #কালী | ['_Ridhima@22'] | Modern | None
+dps_001851 | old-classics | Luchi Tomar Manyo Tribhubane |  | ['Ramkumar Chattopadhyay'] | Old Classics | 1970
+dps_001853 | old-classics | Moja Kore Khao Re Ganja |  | ['Ramkumar Chattopadhyay'] | Old Classics | 1970
+dps_001855 | old-classics | বহুরূপে রামকুমার | বহুরূপে রামকুমার | ['Biswas Records'] | Old Classics | 1970
+dps_001857 | old-classics | Great collection of Ramkumar Chattopadhyay | পুরাতন বাংলা গান | ['Various Artists'] | Old Classics | 1970
+dps_001859 | old-classics | Top 100 Bengali Songs by Ramkumar Chattopadhyay |  | ['Perennial Records'] | Old Classics | 1970
+dps_001860 | old-classics | Ramkumar Chatterjee | মজলিশী রামকুমার | ['Biswas Records'] | Old Classics | 1970
+dps_001861 | old-classics | Ramkumar Chatterjee |  | ['Inreco Devotional'] | Old Classics | 1970
+dps_001862 | old-classics | Rangin Ramkumar |  | ['Perennial Records'] | Old Classics | 1970
+dps_001864 | old-classics | Ektarate Bendhe Dile Dotarai Sur |  | ['Ramkumar Chattopadhyay'] | Old Classics | 1970
+dps_001886 | aarti | Durge Devi Stotram |  | ['BHANUMATHI NARASIMHAN'] | Modern | None
+dps_001941 | 90s | Sadhana Sargam Live Concert | সাধনা সরগম লাইভ | ['Agamani Studio'] | 1990s | 1995
+dps_001943 | agomoni | #Agamonisong #JayatiChakraborty O Ma Trinoyoni |  | ['Jayati Chakraborty'] | Modern | None
+dps_001952 | agomoni | মায়ের শুভ আগমন l Mayer Shubho Agomon l Agomoni l Tirtha Bhattacharjee l Satirtha l Sholashilpo | মায়ের শুভ আগমন l Mayer Shubho Agomon l Agomoni l Tirtha Bhattacharjee l Satirtha l Sholashilpo | ['Tirtha Bhattacharjee'] | Modern | None
+dps_002057 | 90s | Sadhana Sargam & Kumar Sanu Special Nonstop Benga | কুমার শানু ও সাধনা সরগমের অসাধারণ কিছু বাংলা গান | ['Kumar Sanu', 'Shaan'] | 1990s | 1995
+dps_002058 | 90s | Kumar Sanu & Sadhana Sargam | প্রেমের গান | ['Kumar Sanu'] | 1990s | 1995
+dps_002059 | 90s | Tumi Aar Ami Ei Prithibite |  | ['Kumar Sanu'] | 1990s | 1995
+dps_002060 | 90s | Ektu Chhonya |  | ['Kumar Sanu', 'Babul Supriyo'] | 1990s | 1995
+dps_002061 | 90s | Samne Tumi Ele |  | ['Kumar Sanu'] | 1990s | 1995
+dps_002062 | 90s | Saradin Sararaat |  | ['Kumar Sanu'] | 1990s | 1995
+dps_002063 | 90s | kumar sanu & sadhana sargam 100 song, vol |  | ['Kumar Sanu'] | 1990s | 1995
+dps_002064 | 90s | AMIT KUMAR and SADHNA SARGAM superhit duet songs অমিত কুমার ও সাধনা সরগম সুপারহিট গান jukebox | AMIT KUMAR and SADHNA SARGAM superhit duet songs অমিত কুমার ও সাধনা সরগম সুপারহিট গান jukebox | ['Samir Digar'] | 1990s | 1995
+dps_002065 | 90s | Kumar Sanu & Sadhna Sargam top 10 songs |  | ['Kumar Sanu'] | 1990s | 1995
+dps_002067 | 90s | Kumar Sanu & kavita krishnamurthy Bengali song | কবিতা কৃষ্ণমূর্তি ও কুমার সানু super hit song | ['Kumar Sanu'] | 1990s | 1995
+dps_002068 | 90s | Kumar Sanu & Kavita Krishnamurthy Duet Bengali songs |  | ['Kumar Sanu'] | 1990s | 1995
+dps_002069 | 90s | Kumar Sanu & Kavita Krishnamurthy Duet Hits |  | ['Kumar Sanu'] | 1990s | 1995
+dps_002070 | 90s | Rimjhim Rimjhim |  | ['Kumar Sanu'] | 1990s | 1995
+dps_002071 | 90s | Tomar Mukhta Eto Chena | তোমার মুখটা এতো চেনা | ['Kumar Sanu'] | 1990s | 1995
+dps_002074 | 90s | Pratham Dekha |  | ['Kumar Sanu', 'Alka Yagnik'] | 1990s | 1995
+dps_002075 | 90s | Duets of Kumar Sanu & Kavita Krishnamurthy |  | ['Kumar Sanu'] | 1990s | 1995
+dps_002076 | 90s | Kumar Sanu & Kavita Krishnamurthy Duet Bengali Movies MP3 songs |  | ['Kumar Sanu'] | 1990s | 1995
+dps_002077 | 90s | Kumar Sanu & Kavita Krishnamurthy |  | ['Kumar Sanu'] | 1990s | 1995
+dps_002084 | 90s | Tumaki Bhalo Bashiche |  | ['Babul Supriyo'] | 1990s | 1995
+dps_002104 | 90s | Alka Yagnik & Kumar | কুমার শানু ও অলকা ইয়াগ্নিক ও উদিত নারায়ণ ও সাধনা সরগমের অসাধারণ কিছু বাংলা গান | ['Kumar Sanu', 'Alka Yagnik', 'Shaan', 'Udit Narayan'] | 1990s | 1995
+dps_002116 | modern | Mishawr Rawhoshyo I Arijit Singh | Balir Shohor ( বালির শহর ) | ['Shreya Ghoshal', 'Arijit Singh'] | Modern | 2018
+dps_002123 | old-classics | Kishore Kumar & Asha Bhosle Special Nonstop Beng | আশা ভোঁসলে ও কিশোর কুমারের অসাধারণ কিছু বাংলা গান | ['Kishore Kumar', 'Asha Bhosle'] | Old Classics | 1970
+dps_002124 | old-classics | Kishore Kumar & Asha Bhosle Bengali Songs |  | ['Kishore Kumar', 'Asha Bhosle'] | Old Classics | 1970
+dps_002125 | old-classics | Evergreen Bengali Songs |  | ['Kishore Kumar', 'Lata Mangeshkar'] | Old Classics | 1970
+dps_002126 | old-classics | Best Of Kishore Kumar & Asha Bhosle | কিশোর কুমার ও আশা ভোঁসলের গান | ['Kishore Kumar', 'Asha Bhosle'] | Old Classics | 1970
+dps_002127 | old-classics | Top 5 Bengali Songs Of Asha Bhosle & Kishore Kumar |  | ['Kishore Kumar', 'Asha Bhosle'] | Old Classics | 1970
+dps_002128 | old-classics | Golden Hits Of Lata Mangeshkar, Kishore Kumar & Asha Bhosle |  | ['Kishore Kumar', 'Asha Bhosle', 'Lata Mangeshkar'] | Old Classics | 1970
+dps_002129 | old-classics | Magical Duets of Asha Bhosle & Amit Kumar |  | ['Asha Bhosle'] | Old Classics | 1970
+dps_002131 | old-classics | Jodi Hoi Chorkanta Lyrical | যদি হই চোরকাঁটা | ['Kishore Kumar', 'Asha Bhosle'] | Old Classics | 1970
+dps_002326 | agomoni | Durga Puja Agomoni Songs Bengali Jukebox | দুর্গাপূজা ২০২৬ আগমনীর গান | ['Bhakti Virus'] | Modern | None
+dps_002334 | dhaak | DHAKI Performance as tradition for Great Durga Pujo, Kolkata, India |  | ['Saynab Kumar'] | Modern | None
+dps_000629 | pandal | Priyotama Mone Rekho | প্রিয়তমা মনে রেখো | ['Kumar Sanu'] | 90s | 1993
+dps_000630 | pandal | Tomake Prothom Dekhei Eto Bhalo Legeche | তোমাকে প্রথম দেখেই এত ভালো লেগেছে | ['Kumar Sanu', 'Alka Yagnik'] | 90s | 1995
+dps_000631 | pandal | Eto Noi Noi with lyrics | এত নয় নয় শুধু গান | ['Kumar Sanu'] | 90s | 1993
+dps_000632 | pandal | Sundor Tumi Koto | সুন্দর তুমি কত | ['Kumar Sanu'] | 90s | 1996
+dps_000633 | pandal | Tumi Elena Keno Elena | তুমি এলেনা কেন এলেনা | ['Kumar Sanu'] | 90s | 1994
+dps_000634 | pandal | Bhalobasa Joto Boro | ভালোবাসা যত বড় | ['Kumar Sanu', 'Mitali Mukherjee'] | 90s | 1997
+dps_000635 | pandal | Jonmechi Je Ei Matite | জন্মেছি যে এই মাটিতে | ['Kumar Sanu'] | 90s | 1994
+dps_000636 | pandal | Tomake Prothom Dekhei | তোমাকে প্রথম দেখে | ['Kumar Sanu'] | 90s | 1998
+dps_000642 | pandal | Chirodini Tumi Je Aamar | চিরদিনই তুমি যে আমার | ['Kishore Kumar', 'Bappi Lahiri'] | 80s | 1987
+dps_000651 | pandal | Ei To Jibon | এই তো জীবন | ['Kishore Kumar', 'Bappi Lahiri'] | 80s | 1981
+dps_000653 | pandal | Akash Keno Daake | আকাশ কেন ডাকে | ['Kishore Kumar', 'R. D. Burman'] | Old Classics | 1974
+dps_000654 | pandal | Sei Raate Raat Chhilo Purnima | সেই রাতে রাত ছিল পূর্ণিমা | ['Kishore Kumar'] | Old Classics | 1976
+dps_000655 | pandal | Nayan Sarasi Keno Bhoreche Jaale | নয়ন সরসী কেন ভরেছে জলে | ['Kishore Kumar'] | Old Classics | 1975
+dps_000656 | pandal | Amar Swapna Tumi Ogo | আমার স্বপ্ন তুমি ওগো | ['Kishore Kumar', 'Asha Bhosle'] | Old Classics | 1977
+dps_000657 | pandal | Jodi Hoi Chorkanta | যদি হই চোরকাঁটা | ['Kishore Kumar', 'Asha Bhosle'] | Old Classics | 1975
+dps_000658 | pandal | Asha Chhilo Bhalobasa Chhilo | আশা ছিল ভালোবাসা ছিল | ['Kishore Kumar'] | Old Classics | 1977
+dps_000659 | pandal | Haowa Megh Saraye Phul Jharaye | হাওয়া মেঘ সরায়ে ফুল ঝরায়ে | ['Kishore Kumar'] | Old Classics | 1982
+dps_000660 | pandal | Amar Pujar Phool | আমার পূজার ফুল ভালোবাসা হয়ে গেছে | ['Kishore Kumar'] | Old Classics | 1978
+dps_000672 | pandal | O Menoka O Menoka | ও মেনকা ও মেনকা | ['Antara Nandy', 'Ankita Nandy'] | Modern | 2024
+dps_000675 | pandal | Amar Sanghi Full Album Songs Jukebox | অমর সঙ্গী - সম্পূর্ণ অ্যালবাম গান জুকবক্স | ['Bappi Lahiri', 'Kishore Kumar'] | 80s | 1987
+dps_000677 | pandal | Best Of Kumar Sanu Bengali Hit Songs Jukebox | বেস্ট অফ কুমার শানু বাংলা হিট গান (অডিও জুকবক্স) | ['Kumar Sanu'] | 90s | 1994
+dps_000678 | pandal | Fuller Aashore | Popular Romantic Audio Jukebox | Kumar Sanu | ফুলের আসরে - কুমার শানু রোমান্টিক জুকবক্স | ['Kumar Sanu'] | 90s | 1996

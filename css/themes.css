@@ -1,0 +1,160 @@
+/* ==========================================================================
+   DURGA PUJA SONG - Category Background & Visual Themes
+   14 Distinct Cultural Atmospheres with Smooth Crossfades & Palettes
+   ========================================================================== */
+
+/* 1. Agomoni (আগমনী গান): Dawn, Kaash phool, Shiuli, Soft Morning Sunlight */
+body.theme-agomoni #app-background {
+  background: radial-gradient(circle at 50% 25%, #2a3b4c 0%, #15222e 50%, #0a1117 100%);
+}
+body.theme-agomoni {
+  --text-accent: #f0e6d2;
+  --surface-glass: rgba(18, 28, 38, 0.75);
+  --surface-glass-border: rgba(224, 210, 180, 0.28);
+  --gold-gradient: linear-gradient(135deg, #fff3e0 0%, #e0c9a6 50%, #b89868 100%);
+  --sindoor-gradient: linear-gradient(135deg, #3d5a80 0%, #293241 100%);
+}
+
+/* 2. Mahalaya (মহালয়া): Pre-dawn Navy Sky, Vintage Akashvani Glow, Incense */
+body.theme-mahalaya #app-background {
+  background: radial-gradient(circle at 50% 20%, #172a3a 0%, #0b1821 60%, #04090d 100%);
+}
+body.theme-mahalaya {
+  --text-accent: #e5c07b;
+  --surface-glass: rgba(11, 24, 33, 0.82);
+  --surface-glass-border: rgba(229, 192, 123, 0.3);
+  --gold-gradient: linear-gradient(135deg, #fcebb6 0%, #e5c07b 50%, #b58900 100%);
+  --sindoor-gradient: linear-gradient(135deg, #1b3a4b 0%, #0d1b2a 100%);
+}
+
+/* 3. Durga Puja Songs (দুর্গাপূজার গান): Grand Idol, Sindoor Red, Pandal Gold */
+body.theme-durga-puja #app-background {
+  background: radial-gradient(circle at 50% 20%, #420811 0%, #1e0308 60%, #0a0103 100%);
+}
+body.theme-durga-puja {
+  --text-accent: #f7d774;
+  --surface-glass: rgba(28, 6, 11, 0.78);
+  --surface-glass-border: rgba(212, 175, 55, 0.3);
+  --gold-gradient: linear-gradient(135deg, #f7d774 0%, #d4af37 50%, #996515 100%);
+  --sindoor-gradient: linear-gradient(135deg, #d32f2f 0%, #b71c1c 60%, #5f0909 100%);
+}
+
+/* 4. Pandal Songs (প্যান্ডেলের গান): Festive Purple, Loudspeaker Carnival Energy */
+body.theme-pandal #app-background {
+  background: radial-gradient(circle at 50% 25%, #38006b 0%, #1c0038 60%, #0a0014 100%);
+}
+body.theme-pandal {
+  --text-accent: #e1bee7;
+  --surface-glass: rgba(32, 4, 52, 0.78);
+  --surface-glass-border: rgba(225, 190, 231, 0.28);
+  --gold-gradient: linear-gradient(135deg, #f3e5f5 0%, #ce93d8 50%, #8e24aa 100%);
+  --sindoor-gradient: linear-gradient(135deg, #7b1fa2 0%, #4a148c 100%);
+}
+
+/* 5. Dhaak & Beats (ঢাকের বাদ্য): High Contrast Sindoor Red & Ivory, Dhunuchi */
+body.theme-dhaak #app-background {
+  background: radial-gradient(circle at 50% 20%, #4a0d0d 0%, #200404 60%, #0c0202 100%);
+}
+body.theme-dhaak {
+  --text-accent: #ff8a80;
+  --surface-glass: rgba(35, 8, 8, 0.82);
+  --surface-glass-border: rgba(255, 138, 128, 0.3);
+  --gold-gradient: linear-gradient(135deg, #ffebee 0%, #ff8a80 50%, #c62828 100%);
+  --sindoor-gradient: linear-gradient(135deg, #e53935 0%, #b71c1c 60%, #490808 100%);
+}
+
+/* 6. Durga Puja Aarti (দুর্গাপূজার আরতি): Amber Pradip Flame, Gold & Maroon */
+body.theme-aarti #app-background {
+  background: radial-gradient(circle at 50% 25%, #4a2205 0%, #230d02 60%, #0d0400 100%);
+}
+body.theme-aarti {
+  --text-accent: #ffd180;
+  --surface-glass: rgba(38, 16, 4, 0.82);
+  --surface-glass-border: rgba(255, 179, 0, 0.32);
+  --gold-gradient: linear-gradient(135deg, #fff3e0 0%, #ffb300 50%, #e65100 100%);
+  --sindoor-gradient: linear-gradient(135deg, #f57c00 0%, #bf360c 100%);
+}
+
+/* 7. Modern Puja (আধুনিক পুজোর গান): Kolkata Night Neon, Teal & Cyan */
+body.theme-modern #app-background {
+  background: radial-gradient(circle at 50% 20%, #004346 0%, #001f22 60%, #000c0d 100%);
+}
+body.theme-modern {
+  --text-accent: #80deea;
+  --surface-glass: rgba(2, 32, 36, 0.78);
+  --surface-glass-border: rgba(128, 222, 234, 0.25);
+  --gold-gradient: linear-gradient(135deg, #e0f7fa 0%, #26c6da 50%, #00838f 100%);
+  --sindoor-gradient: linear-gradient(135deg, #00838f 0%, #004d40 100%);
+}
+
+/* 8. 80s Bengali (৮০ দশকের গান): Sepia, Cassette Texture, Vintage Kolkata */
+body.theme-80s #app-background {
+  background: radial-gradient(circle at 50% 25%, #332117 0%, #1d120a 60%, #0d0704 100%);
+}
+body.theme-80s {
+  --text-accent: #d7ccc8;
+  --surface-glass: rgba(32, 20, 14, 0.82);
+  --surface-glass-border: rgba(215, 204, 200, 0.25);
+  --gold-gradient: linear-gradient(135deg, #efebe9 0%, #bcaaa4 50%, #6d4c41 100%);
+  --sindoor-gradient: linear-gradient(135deg, #795548 0%, #3e2723 100%);
+}
+
+/* 9. 90s Bengali (৯০ দশকের গান): Retro Cassette Orange & Warm Navy */
+body.theme-90s #app-background {
+  background: radial-gradient(circle at 50% 20%, #3e1b0c 0%, #1f0c05 60%, #0d0502 100%);
+}
+body.theme-90s {
+  --text-accent: #ffab91;
+  --surface-glass: rgba(35, 15, 8, 0.82);
+  --surface-glass-border: rgba(255, 171, 145, 0.3);
+  --gold-gradient: linear-gradient(135deg, #fbe9e7 0%, #ff7043 50%, #bf360c 100%);
+  --sindoor-gradient: linear-gradient(135deg, #d84315 0%, #870000 100%);
+}
+
+/* 10. 2000s Bengali (২০০০ দশকের গান): Silver CD sheen, Millennium Blue */
+body.theme-2000s #app-background {
+  background: radial-gradient(circle at 50% 25%, #0d2847 0%, #061526 60%, #020810 100%);
+}
+body.theme-2000s {
+  --text-accent: #90caf9;
+  --surface-glass: rgba(8, 26, 46, 0.78);
+  --surface-glass-border: rgba(144, 202, 249, 0.25);
+  --gold-gradient: linear-gradient(135deg, #e3f2fd 0%, #64b5f6 50%, #1565c0 100%);
+  --sindoor-gradient: linear-gradient(135deg, #1976d2 0%, #0d47a1 100%);
+}
+
+/* 11. Old Bengali Classics (পুরনো বাংলা গান): Black & White, Gramophone, Antique Slate */
+body.theme-old-classics #app-background {
+  background: radial-gradient(circle at 50% 20%, #212529 0%, #121416 60%, #08090a 100%);
+}
+body.theme-old-classics {
+  --text-accent: #e0e0e0;
+  --surface-glass: rgba(22, 24, 26, 0.85);
+  --surface-glass-border: rgba(224, 224, 224, 0.2);
+  --gold-gradient: linear-gradient(135deg, #f5f5f5 0%, #bdbdbd 50%, #757575 100%);
+  --sindoor-gradient: linear-gradient(135deg, #424242 0%, #212121 100%);
+}
+
+/* 12. Pandal Hopping (ঠাকুর দেখতে যাওয়ার গান): Taxi Amber, Street Night Bokeh */
+body.theme-pandal-hopping #app-background {
+  background: radial-gradient(circle at 50% 25%, #3d2f08 0%, #1c1503 60%, #0a0801 100%);
+}
+body.theme-pandal-hopping {
+  --text-accent: #fff59d;
+  --surface-glass: rgba(30, 24, 6, 0.82);
+  --surface-glass-border: rgba(255, 238, 88, 0.3);
+  --gold-gradient: linear-gradient(135deg, #fffde7 0%, #ffee58 50%, #f57f17 100%);
+  --sindoor-gradient: linear-gradient(135deg, #fbc02d 0%, #e65100 100%);
+}
+
+/* 13. Romantic Puja (পুজোর প্রেম): Velvet Burgundy & Rose, Soft Bokeh */
+body.theme-romantic #app-background {
+  background: radial-gradient(circle at 50% 20%, #3e0b24 0%, #200412 60%, #0c0107 100%);
+}
+body.theme-romantic {
+  --text-accent: #f48fb1;
+  --surface-glass: rgba(34, 8, 20, 0.8);
+  --surface-glass-border: rgba(244, 143, 177, 0.28);
+  --gold-gradient: linear-gradient(135deg, #fce4ec 0%, #f06292 50%, #ad1457 100%);
+  --sindoor-gradient: linear-gradient(135deg, #c2185b 0%, #880e4f 100%);
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Pradip / Diya base -->
+  <path d="M12 36 C14 50 24 56 32 56 C40 56 50 50 52 36 C52 32 12 32 12 36 Z" fill="currentColor" opacity="0.2"/>
+  <ellipse cx="32" cy="34" rx="20" ry="6"/>
+  <!-- Diya flame -->
+  <path d="M32 10 C36 18 42 22 40 28 C38 32 34 33 32 33 C30 33 26 32 24 28 C22 22 28 18 32 10 Z" fill="#ffb300" stroke="#f57c00" stroke-width="1.5"/>
+  <!-- Inner flame core -->
+  <path d="M32 18 C34 22 36 24 35 28 C34 30 33 30 32 30 C31 30 30 30 29 28 C28 24 30 22 32 18 Z" fill="#fff9c4"/>
+  <circle cx="32" cy="56" r="3" fill="currentColor"/>
+</svg>

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 100" fill="none">
+  <defs>
+    <linearGradient id="goldEyeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff4cc"/>
+      <stop offset="40%" stop-color="#f7d774"/>
+      <stop offset="80%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#aa7c11"/>
+    </linearGradient>
+    <linearGradient id="sindoorEyeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff3344"/>
+      <stop offset="100%" stop-color="#b71c1c"/>
+    </linearGradient>
+    <filter id="divineEyeGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Central Forehead Red Vermillion Bindi / Chandrabindu -->
+  <circle cx="80" cy="38" r="9" fill="url(#sindoorEyeGrad)" filter="url(#divineEyeGlow)"/>
+  <circle cx="80" cy="38" r="6" fill="#d32f2f"/>
+  <circle cx="80" cy="38" r="2.5" fill="#ffebee"/>
+
+  <!-- Divine Third Eye (Trinetra - ত্রিনয়ন) on Forehead -->
+  <path d="M80 8 C88 20 88 28 80 34 C72 28 72 20 80 8 Z" fill="url(#goldEyeGrad)" stroke="#aa7c11" stroke-width="1.2"/>
+  <circle cx="80" cy="22" r="3.2" fill="#b71c1c"/>
+  <circle cx="80" cy="22" r="1.4" fill="#ffffff"/>
+
+  <!-- Left Eyebrow (Arching gracefully outwards) -->
+  <path d="M22 46 C36 34 56 34 72 44" stroke="url(#goldEyeGrad)" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M24 46 C38 36 54 36 70 44" stroke="#1a0508" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- Right Eyebrow -->
+  <path d="M138 46 C124 34 104 34 88 44" stroke="url(#goldEyeGrad)" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M136 46 C122 36 106 36 90 44" stroke="#1a0508" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- Left Eye (Traditional Elongated Almond / Fish-shaped "পটলচেরা চোখ") -->
+  <!-- Outer Kajal Wing -->
+  <path d="M14 58 C28 46 54 48 72 58 C54 70 28 68 14 58 Z" fill="#ffffff" stroke="#1a0508" stroke-width="2.8" stroke-linejoin="round"/>
+  <!-- Left Eye Sclera & Iris -->
+  <ellipse cx="44" cy="58" rx="10" ry="8.5" fill="#14080a"/>
+  <circle cx="44" cy="58" r="6.5" fill="#2d0b11"/>
+  <circle cx="44" cy="58" r="3.8" fill="#100305"/>
+  <circle cx="42" cy="56" r="1.8" fill="#ffffff"/>
+  <!-- Kajal Tail -->
+  <path d="M14 58 C8 56 4 52 2 48" stroke="#1a0508" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M72 58 C74 57 76 56 77 54" stroke="#d32f2f" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- Right Eye -->
+  <!-- Outer Kajal Wing -->
+  <path d="M146 58 C132 46 106 48 88 58 C106 70 132 68 146 58 Z" fill="#ffffff" stroke="#1a0508" stroke-width="2.8" stroke-linejoin="round"/>
+  <!-- Right Eye Sclera & Iris -->
+  <ellipse cx="116" cy="58" rx="10" ry="8.5" fill="#14080a"/>
+  <circle cx="116" cy="58" r="6.5" fill="#2d0b11"/>
+  <circle cx="116" cy="58" r="3.8" fill="#100305"/>
+  <circle cx="114" cy="56" r="1.8" fill="#ffffff"/>
+  <!-- Kajal Tail -->
+  <path d="M146 58 C152 56 156 52 158 48" stroke="#1a0508" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M88 58 C86 57 84 56 83 54" stroke="#d32f2f" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- Traditional Forehead Chandan Pattern Dots -->
+  <circle cx="68" cy="30" r="1.6" fill="#fff9db"/>
+  <circle cx="60" cy="27" r="1.4" fill="#fff9db"/>
+  <circle cx="52" cy="26" r="1.2" fill="#fff9db"/>
+  <circle cx="92" cy="30" r="1.6" fill="#fff9db"/>
+  <circle cx="100" cy="27" r="1.4" fill="#fff9db"/>
+  <circle cx="108" cy="26" r="1.2" fill="#fff9db"/>
+</svg>

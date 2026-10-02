@@ -1,0 +1,19 @@
+{
+  "name": "DURGA PUJA SONG — দুর্গাপূজার গান",
+  "short_name": "DurgaPujaSong",
+  "description": "Nostalgic Bengali Durga Puja music radio with 2,000+ curated songs, Mahalaya, Agomoni, and Pandal anthems.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0a1118",
+  "theme_color": "#b71c1c",
+  "categories": ["music", "entertainment", "lifestyle"],
+  "icons": [
+    {
+      "src": "./assets/icons/trishul.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
