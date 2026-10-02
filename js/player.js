@@ -23,45 +23,70 @@ export class YouTubePlayer {
   }
 
   initYouTubeAPI() {
-    // Check if YouTube API script is already on page
-    if (window.YT && window.YT.Player) {
-      this.createPlayer();
-      return;
-    }
-
-    // Define global callback
-    window.onYouTubeIframeAPIReady = () => {
+    const readyCallback = () => {
+      if (this.ytPlayer) return;
       this.createPlayer();
     };
 
-    // Dynamically inject IFrame API script
-    const tag = document.createElement('script');
-    tag.src = 'https://www.youtube.com/iframe_api';
-    const firstScriptTag = document.getElementsByTagName('script')[0];
-    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+    if (window.YT && window.YT.Player) {
+      readyCallback();
+      return;
+    }
+
+    if (window.YT && typeof window.YT.ready === 'function') {
+      window.YT.ready(readyCallback);
+    }
+
+    const prevOnReady = window.onYouTubeIframeAPIReady;
+    window.onYouTubeIframeAPIReady = () => {
+      if (typeof prevOnReady === 'function') {
+        try { prevOnReady(); } catch (e) {}
+      }
+      readyCallback();
+    };
+
+    if (!document.querySelector('script[src*="youtube.com/iframe_api"]')) {
+      const tag = document.createElement('script');
+      tag.src = 'https://www.youtube.com/iframe_api';
+      const firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+    }
+
+    // Safety fallback: poll for window.YT.Player
+    const checkInterval = setInterval(() => {
+      if (window.YT && window.YT.Player) {
+        clearInterval(checkInterval);
+        readyCallback();
+      }
+    }, 150);
+    setTimeout(() => clearInterval(checkInterval), 10000);
   }
 
   createPlayer() {
-    this.ytPlayer = new window.YT.Player(this.containerId, {
-      height: '200',
-      width: '200',
-      playerVars: {
-        autoplay: 0,
-        controls: 0,
-        disablekb: 1,
-        enablejsapi: 1,
-        fs: 0,
-        modestbranding: 1,
-        playsinline: 1,
-        rel: 0,
-        origin: window.location.origin
-      },
-      events: {
-        onReady: (event) => this.handleReady(event),
-        onStateChange: (event) => this.handleStateChange(event),
-        onError: (event) => this.handleError(event)
-      }
-    });
+    if (!window.YT || !window.YT.Player) return;
+    try {
+      this.ytPlayer = new window.YT.Player(this.containerId, {
+        height: '200',
+        width: '200',
+        playerVars: {
+          autoplay: 0,
+          controls: 0,
+          disablekb: 1,
+          enablejsapi: 1,
+          fs: 0,
+          modestbranding: 1,
+          playsinline: 1,
+          rel: 0
+        },
+        events: {
+          onReady: (event) => this.handleReady(event),
+          onStateChange: (event) => this.handleStateChange(event),
+          onError: (event) => this.handleError(event)
+        }
+      });
+    } catch (e) {
+      console.error('Failed to create YouTube player:', e);
+    }
   }
 
   handleReady(event) {
