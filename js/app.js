@@ -108,6 +108,7 @@ export class DurgaPujaApp {
     this.quotesEngine.startCountdown();
 
     this.activeFilteredList = this.filterEngine.apply();
+    this.queue.setFilteredList(this.activeFilteredList);
 
     // Sync shuffle and repeat button states in UI
     const shuffleBtn = document.getElementById('btn-shuffle');
