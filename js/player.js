@@ -14,6 +14,7 @@ export class YouTubePlayer {
     this.ytPlayer = null;
     this.isReady = false;
     this.isPlaying = false;
+    this.playRequested = false;
     this.currentSong = null;
     this.progressInterval = null;
     this.volume = options.initialVolume || 80;
@@ -65,19 +66,27 @@ export class YouTubePlayer {
   createPlayer() {
     if (!window.YT || !window.YT.Player) return;
     try {
+      const origin = window.location.origin && window.location.origin !== 'null'
+        ? window.location.origin
+        : undefined;
+
+      const playerVars = {
+        autoplay: 0,
+        controls: 0,
+        disablekb: 1,
+        enablejsapi: 1,
+        fs: 0,
+        modestbranding: 1,
+        playsinline: 1,
+        rel: 0
+      };
+      if (origin) playerVars.origin = origin;
+
       this.ytPlayer = new window.YT.Player(this.containerId, {
         height: '200',
         width: '200',
-        playerVars: {
-          autoplay: 0,
-          controls: 0,
-          disablekb: 1,
-          enablejsapi: 1,
-          fs: 0,
-          modestbranding: 1,
-          playsinline: 1,
-          rel: 0
-        },
+        host: 'https://www.youtube.com',
+        playerVars: playerVars,
         events: {
           onReady: (event) => this.handleReady(event),
           onStateChange: (event) => this.handleStateChange(event),
@@ -96,8 +105,11 @@ export class YouTubePlayer {
     console.log('DURGA PUJA SONG: YouTube IFrame Player Ready.');
 
     if (this.pendingSong) {
-      this.loadSong(this.pendingSong, this.pendingAutoPlay);
+      const shouldPlay = this.pendingAutoPlay || this.playRequested;
+      this.loadSong(this.pendingSong, shouldPlay);
       this.pendingSong = null;
+    } else if (this.playRequested && this.currentSong) {
+      this.play();
     }
   }
 
@@ -108,23 +120,27 @@ export class YouTubePlayer {
     if (!this.isReady || !this.ytPlayer) {
       this.pendingSong = song;
       this.pendingAutoPlay = autoPlay;
+      if (autoPlay) this.playRequested = true;
       this.onTrackChange(song);
       return;
     }
 
     try {
       if (autoPlay) {
+        this.playRequested = true;
         this.ytPlayer.loadVideoById({
           videoId: song.youtubeId,
           startSeconds: 0
         });
         this.isPlaying = true;
+        this.onStateChange('playing');
       } else {
         this.ytPlayer.cueVideoById({
           videoId: song.youtubeId,
           startSeconds: 0
         });
         this.isPlaying = false;
+        this.onStateChange('paused');
       }
       this.onTrackChange(song);
       this.startProgressTracking();
@@ -135,19 +151,39 @@ export class YouTubePlayer {
   }
 
   play() {
-    if (!this.isReady || !this.ytPlayer) return;
+    this.playRequested = true;
+    if (!this.isReady || !this.ytPlayer) {
+      if (this.currentSong) {
+        this.pendingSong = this.currentSong;
+        this.pendingAutoPlay = true;
+      }
+      return;
+    }
     try {
-      this.ytPlayer.playVideo();
+      if (this.currentSong && this.currentSong.youtubeId) {
+        const curTime = Math.floor(this.getCurrentTime());
+        this.ytPlayer.loadVideoById({
+          videoId: this.currentSong.youtubeId,
+          startSeconds: curTime > 0 ? curTime : 0
+        });
+      } else {
+        this.ytPlayer.playVideo();
+      }
       this.isPlaying = true;
+      this.onStateChange('playing');
       this.startProgressTracking();
-    } catch (e) {}
+    } catch (e) {
+      try { this.ytPlayer.playVideo(); } catch (err) {}
+    }
   }
 
   pause() {
+    this.playRequested = false;
     if (!this.isReady || !this.ytPlayer) return;
     try {
       this.ytPlayer.pauseVideo();
       this.isPlaying = false;
+      this.onStateChange('paused');
       this.stopProgressTracking();
     } catch (e) {}
   }

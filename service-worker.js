@@ -3,7 +3,7 @@
  * Caches application shell and visual assets. NEVER caches YouTube video or audio.
  */
 
-const CACHE_NAME = 'durga-puja-song-v1';
+const CACHE_NAME = 'durga-puja-song-v2';
 
 const STATIC_ASSETS = [
   './',
@@ -70,13 +70,10 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
+  // Network first, falling back to cache
   event.respondWith(
-    caches.match(event.request).then((cachedResponse) => {
-      if (cachedResponse) {
-        return cachedResponse;
-      }
-      return fetch(event.request).then((response) => {
-        // Cache successful local GET requests
+    fetch(event.request)
+      .then((response) => {
         if (event.request.method === 'GET' && response.status === 200 && url.origin === location.origin) {
           const responseClone = response.clone();
           caches.open(CACHE_NAME).then((cache) => {
@@ -84,7 +81,9 @@ self.addEventListener('fetch', (event) => {
           });
         }
         return response;
-      });
-    })
+      })
+      .catch(() => {
+        return caches.match(event.request);
+      })
   );
 });

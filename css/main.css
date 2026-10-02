@@ -1407,14 +1407,14 @@ html, body {
   max-width: 580px;
 }
 
-/* Embedded YouTube Player (Kept in viewport so browser/YouTube doesn't throttle background audio) */
+/* Embedded YouTube Player (Kept in viewport with 200x200px to meet YouTube API policy) */
 #youtube-player-container {
   position: fixed;
   bottom: 0;
   right: 0;
-  width: 10px;
-  height: 10px;
-  opacity: 0.001;
+  width: 200px;
+  height: 200px;
+  opacity: 0.01;
   pointer-events: none;
   z-index: -10;
 }
