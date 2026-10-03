@@ -376,6 +376,24 @@ html, body {
   padding-right: 0.25rem;
 }
 
+.category-nav-list::-webkit-scrollbar {
+  width: 5px;
+}
+
+.category-nav-list::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.category-nav-list::-webkit-scrollbar-thumb {
+  background: rgba(212, 175, 55, 0.3);
+  border-radius: 4px;
+}
+
+.category-nav-list::-webkit-scrollbar-thumb:hover {
+  background: var(--gold-warm);
+}
+
 .cat-item-btn {
   display: flex;
   align-items: center;

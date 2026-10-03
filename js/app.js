@@ -15,11 +15,12 @@ import { QuotesAndCountdown } from './quotes.js';
 import { RadioController } from './radio.js';
 import { AdminConsole } from './admin.js';
 import { ShareManager } from './share.js';
+import { CATEGORIES_DATA } from './categories-data.js';
 
 export class DurgaPujaApp {
   constructor() {
     this.catalog = [];
-    this.categories = [];
+    this.categories = [...CATEGORIES_DATA];
     this.singers = [];
     this.quotes = [];
 
@@ -60,10 +61,13 @@ export class DurgaPujaApp {
 
   async init() {
     console.log('Initializing DURGA PUJA SONG application...');
+    // Render initial categories immediately using static fallback so there is zero delay/blank screen
+    this.renderCategoriesList();
+
     await this.loadData();
 
     this.setupEngines();
-    this.renderCategoriesList();
+    this.renderCategoriesList(); // Re-render with live catalog counts
     this.renderSingersDirectory();
     this.renderSongList();
     this.updateUpNextList();
@@ -83,19 +87,26 @@ export class DurgaPujaApp {
     try {
       const [songsRes, catsRes, singersRes, quotesRes] = await Promise.all([
         fetch('./data/songs.json').then(r => r.json()).catch(() => []),
-        fetch('./data/categories.json').then(r => r.json()).catch(() => []),
+        fetch('./data/categories.json').then(r => r.json()).catch(() => null),
         fetch('./data/singers.json').then(r => r.json()).catch(() => []),
         fetch('./data/quotes.json').then(r => r.json()).catch(() => [])
       ]);
 
-      this.catalog = songsRes || [];
-      this.categories = catsRes || [];
-      this.singers = singersRes || [];
-      this.quotes = quotesRes || [];
+      this.catalog = (songsRes && songsRes.length > 0) ? songsRes : [];
+      if (catsRes && Array.isArray(catsRes) && catsRes.length > 0) {
+        this.categories = catsRes;
+      } else {
+        this.categories = [...CATEGORIES_DATA];
+      }
+      this.singers = (singersRes && singersRes.length > 0) ? singersRes : [];
+      this.quotes = (quotesRes && quotesRes.length > 0) ? quotesRes : [];
 
       console.log(`Loaded ${this.catalog.length} songs, ${this.categories.length} categories, ${this.singers.length} singers.`);
     } catch (e) {
       console.error('Data load error:', e);
+      if (!this.categories || this.categories.length === 0) {
+        this.categories = [...CATEGORIES_DATA];
+      }
     }
   }
 
@@ -179,27 +190,32 @@ export class DurgaPujaApp {
     const container = document.getElementById('category-list-container');
     if (!container) return;
 
+    const categories = (this.categories && this.categories.length > 0) ? this.categories : CATEGORIES_DATA;
+
     // Build category count map: strictly 1 primary category per song
     const counts = {};
     this.catalog.forEach(s => {
       counts[s.primaryCategory] = (counts[s.primaryCategory] || 0) + 1;
     });
 
+    const activeCat = (this.filterEngine && this.filterEngine.getActiveCategory()) || 'all';
+
     // All songs button
     let html = `
-      <button class="cat-item-btn active" data-category="all" id="cat-btn-all">
+      <button class="cat-item-btn ${activeCat === 'all' ? 'active' : ''}" data-category="all" id="cat-btn-all">
         <div class="cat-left">
           <span class="cat-icon">🎶</span>
           <span class="cat-name-bn">সব পুজোর গান</span>
         </div>
-        <span class="cat-count-badge">${this.catalog.length}</span>
+        <span class="cat-count-badge">${this.catalog.length || 2289}</span>
       </button>
     `;
 
-    this.categories.forEach(cat => {
-      const count = counts[cat.id] || 0;
+    categories.forEach(cat => {
+      const count = counts[cat.id] !== undefined ? counts[cat.id] : (cat.targetCount || 0);
+      const isActive = activeCat === cat.id;
       html += `
-        <button class="cat-item-btn" data-category="${cat.id}">
+        <button class="cat-item-btn ${isActive ? 'active' : ''}" data-category="${cat.id}">
           <div class="cat-left">
             <span class="cat-icon">${cat.icon}</span>
             <span class="cat-name-bn">${cat.bengaliName}</span>

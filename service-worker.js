@@ -3,7 +3,7 @@
  * Caches application shell and visual assets. NEVER caches YouTube video or audio.
  */
 
-const CACHE_NAME = 'durga-puja-song-v2';
+const CACHE_NAME = 'durga-puja-song-v3';
 
 const STATIC_ASSETS = [
   './',
@@ -14,6 +14,7 @@ const STATIC_ASSETS = [
   './css/animations.css',
   './css/responsive.css',
   './js/app.js',
+  './js/categories-data.js',
   './js/player.js',
   './js/queue.js',
   './js/theme-manager.js',
@@ -43,7 +44,13 @@ const STATIC_ASSETS = [
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
-      return cache.addAll(STATIC_ASSETS);
+      return Promise.allSettled(
+        STATIC_ASSETS.map((asset) =>
+          cache.add(asset).catch((err) => {
+            console.warn(`[SW] Pre-caching asset skipped: ${asset}`, err);
+          })
+        )
+      );
     }).then(() => self.skipWaiting())
   );
 });
