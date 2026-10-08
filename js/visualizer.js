@@ -108,11 +108,35 @@ export class VisualizerEngine {
   }
 
   startLoop() {
-    const loop = () => {
-      this.render();
+    let lastTime = performance.now();
+    const fpsInterval = 1000 / 40; // 40fps for buttery smooth particle motion with low CPU
+    let isHidden = false;
+    let isScrolling = false;
+    let scrollTimer = null;
+
+    if (typeof document !== 'undefined') {
+      document.addEventListener('visibilitychange', () => {
+        isHidden = document.hidden;
+      }, { passive: true });
+
+      window.addEventListener('scroll', () => {
+        isScrolling = true;
+        clearTimeout(scrollTimer);
+        scrollTimer = setTimeout(() => { isScrolling = false; }, 80);
+      }, { passive: true });
+    }
+
+    const loop = (currentTime) => {
       this.animId = requestAnimationFrame(loop);
+      if (isHidden || isScrolling) return;
+
+      const elapsed = currentTime - lastTime;
+      if (elapsed < fpsInterval) return;
+      lastTime = currentTime - (elapsed % fpsInterval);
+
+      this.render();
     };
-    loop();
+    this.animId = requestAnimationFrame(loop);
   }
 
   render() {
@@ -127,24 +151,20 @@ export class VisualizerEngine {
       const p = this.particles[i];
 
       if (p.type === 'shiuli') {
-        // Render Shiuli flower petal
         ctx.save();
         ctx.translate(p.x, p.y);
         ctx.rotate(p.rotation);
         ctx.globalAlpha = p.opacity;
 
-        // White petal
         ctx.fillStyle = '#ffffff';
         ctx.beginPath();
         ctx.ellipse(0, 0, p.radius, p.radius * 0.55, 0, 0, Math.PI * 2);
         ctx.fill();
 
-        // Distinct orange/saffron stalk center
         ctx.fillStyle = '#ff6f00';
         ctx.beginPath();
         ctx.arc(-p.radius * 0.5, 0, p.radius * 0.25, 0, Math.PI * 2);
         ctx.fill();
-
         ctx.restore();
 
         p.y += p.speedY;
@@ -156,14 +176,11 @@ export class VisualizerEngine {
           p.x = Math.random() * w;
         }
       } else if (p.type === 'smoke') {
-        // Dhunuchi Smoke swirl
-        ctx.save();
         ctx.globalAlpha = p.opacity;
         ctx.fillStyle = 'rgba(230, 220, 210, 0.4)';
         ctx.beginPath();
         ctx.arc(p.x, p.y, p.radius * p.scale, 0, Math.PI * 2);
         ctx.fill();
-        ctx.restore();
 
         p.y += p.speedY;
         p.x += p.speedX;
@@ -174,14 +191,11 @@ export class VisualizerEngine {
           Object.assign(p, this.createParticle());
         }
       } else if (p.type === 'bokeh') {
-        // Festive light bokeh
-        ctx.save();
         ctx.globalAlpha = p.opacity;
         ctx.fillStyle = p.color || '#f7d774';
         ctx.beginPath();
         ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
         ctx.fill();
-        ctx.restore();
 
         p.x += p.speedX;
         p.y += p.speedY;
@@ -191,14 +205,11 @@ export class VisualizerEngine {
           p.y = Math.random() * h;
         }
       } else {
-        // Golden dust
-        ctx.save();
         ctx.globalAlpha = p.opacity;
         ctx.fillStyle = '#f7d774';
         ctx.beginPath();
         ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
         ctx.fill();
-        ctx.restore();
 
         p.y += p.speedY;
         p.x += p.speedX;
@@ -209,6 +220,7 @@ export class VisualizerEngine {
         }
       }
     }
+    ctx.globalAlpha = 1.0;
   }
 
   destroy() {

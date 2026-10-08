@@ -62,6 +62,11 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
 html, body {
   width: 100%;
   min-height: 100vh;
@@ -138,6 +143,8 @@ html, body {
   position: sticky;
   top: 0;
   z-index: 100;
+  transform: translateZ(0);
+  will-change: transform;
 }
 
 .top-navbar::after {
@@ -911,7 +918,12 @@ html, body {
   cursor: pointer;
   position: relative;
   overflow: hidden;
-  transition: all var(--transition-fast);
+  content-visibility: auto;
+  contain-intrinsic-size: 0 54px;
+  contain: layout style;
+  transform: translateZ(0);
+  will-change: transform;
+  transition: transform var(--transition-fast), background var(--transition-fast), border-color var(--transition-fast), box-shadow var(--transition-fast);
 }
 
 .song-card:hover {
@@ -1347,6 +1359,8 @@ html, body {
   padding: 0.65rem 2rem;
   z-index: 90;
   box-shadow: 0 -8px 30px rgba(0, 0, 0, 0.7);
+  transform: translateZ(0);
+  will-change: transform;
 }
 
 .bottom-sticky-player::before {

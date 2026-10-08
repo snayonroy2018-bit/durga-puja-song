@@ -3,7 +3,7 @@
  * Caches application shell and visual assets. NEVER caches YouTube video or audio.
  */
 
-const CACHE_NAME = 'durga-puja-song-v4';
+const CACHE_NAME = 'durga-puja-song-v5';
 
 const STATIC_ASSETS = [
   './',
@@ -27,6 +27,7 @@ const STATIC_ASSETS = [
   './js/visualizer.js',
   './js/admin.js',
   './js/share.js',
+  './data/songs.json',
   './data/categories.json',
   './data/singers.json',
   './data/quotes.json',
@@ -34,7 +35,6 @@ const STATIC_ASSETS = [
   './assets/icons/dhaak.svg',
   './assets/icons/dhunuchi.svg',
   './assets/icons/shankha.svg',
-  './assets/icons/pradip.svg',
   './assets/icons/lotus.svg',
   './assets/icons/alpana.svg',
   './assets/icons/radio.svg',
@@ -77,20 +77,22 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // Network first, falling back to cache
+  // Fast Stale-While-Revalidate: Return cached version instantly in 0ms, update in background
   event.respondWith(
-    fetch(event.request)
-      .then((response) => {
-        if (event.request.method === 'GET' && response.status === 200 && url.origin === location.origin) {
-          const responseClone = response.clone();
-          caches.open(CACHE_NAME).then((cache) => {
-            cache.put(event.request, responseClone);
-          });
-        }
-        return response;
-      })
-      .catch(() => {
-        return caches.match(event.request);
-      })
+    caches.match(event.request).then((cachedResponse) => {
+      const fetchPromise = fetch(event.request)
+        .then((networkResponse) => {
+          if (event.request.method === 'GET' && networkResponse.status === 200 && url.origin === location.origin) {
+            const responseClone = networkResponse.clone();
+            caches.open(CACHE_NAME).then((cache) => {
+              cache.put(event.request, responseClone);
+            });
+          }
+          return networkResponse;
+        })
+        .catch(() => cachedResponse);
+
+      return cachedResponse || fetchPromise;
+    })
   );
 });

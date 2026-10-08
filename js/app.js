@@ -85,14 +85,31 @@ export class DurgaPujaApp {
 
   async loadData() {
     try {
+      // 🚀 Fast Memory / Session Storage Cache Layer (0ms instant response)
+      let cachedSongs = null;
+      try {
+        const raw = sessionStorage.getItem('dps_cached_songs_v5');
+        if (raw) cachedSongs = JSON.parse(raw);
+      } catch (e) {}
+
+      if (cachedSongs && cachedSongs.length > 0) {
+        this.catalog = cachedSongs;
+      }
+
       const [songsRes, catsRes, singersRes, quotesRes] = await Promise.all([
-        fetch('./data/songs.json').then(r => r.json()).catch(() => []),
+        cachedSongs && cachedSongs.length > 0 ? Promise.resolve(cachedSongs) : fetch('./data/songs.json').then(r => r.json()).catch(() => []),
         fetch('./data/categories.json').then(r => r.json()).catch(() => null),
         fetch('./data/singers.json').then(r => r.json()).catch(() => []),
         fetch('./data/quotes.json').then(r => r.json()).catch(() => [])
       ]);
 
-      this.catalog = (songsRes && songsRes.length > 0) ? songsRes : [];
+      if (songsRes && songsRes.length > 0) {
+        this.catalog = songsRes;
+        try {
+          sessionStorage.setItem('dps_cached_songs_v5', JSON.stringify(songsRes));
+        } catch (e) {}
+      }
+
       if (catsRes && Array.isArray(catsRes) && catsRes.length > 0) {
         this.categories = catsRes;
       } else {
@@ -388,10 +405,68 @@ export class DurgaPujaApp {
     }
   }
 
+  bindSongListEvents() {
+    const container = document.getElementById('song-list-container');
+    if (!container || container.dataset.eventsBound) return;
+    container.dataset.eventsBound = 'true';
+
+    container.addEventListener('click', (e) => {
+      // 1. Favorite button click
+      const favBtn = e.target.closest('.btn-card-fav');
+      if (favBtn) {
+        e.stopPropagation();
+        const songId = favBtn.dataset.songId;
+        const isFav = this.favorites.toggle(songId);
+        favBtn.textContent = isFav ? '❤️' : '🤍';
+        favBtn.classList.toggle('favorited', isFav);
+        ShareManager.showToast(isFav ? 'গানটি আপনার পছন্দের তালিকায় যোগ করা হয়েছে!' : 'পছন্দের তালিকা থেকে বাদ দেওয়া হয়েছে।');
+        return;
+      }
+
+      // 2. Share button click
+      const shareBtn = e.target.closest('.btn-card-share');
+      if (shareBtn) {
+        e.stopPropagation();
+        const songId = shareBtn.dataset.songId;
+        const song = this.catalog.find(s => s.id === songId);
+        if (song) ShareManager.copySongLink(song);
+        return;
+      }
+
+      // 3. Song Card click
+      const card = e.target.closest('.song-card');
+      if (card) {
+        const songId = card.dataset.songId;
+        this.playSongById(songId);
+      }
+    });
+  }
+
+  updateNowPlayingCard(newSongId) {
+    const container = document.getElementById('song-list-container');
+    if (!container) return;
+
+    const prevCard = container.querySelector('.song-card.now-playing');
+    if (prevCard) {
+      prevCard.classList.remove('now-playing');
+      const span = prevCard.querySelector('.thumb-play-overlay span');
+      if (span) span.textContent = '▶';
+    }
+
+    const currentCard = container.querySelector(`.song-card[data-song-id="${newSongId}"]`);
+    if (currentCard) {
+      currentCard.classList.add('now-playing');
+      const span = currentCard.querySelector('.thumb-play-overlay span');
+      if (span) span.textContent = '❚❚';
+    }
+  }
+
   renderSongList() {
     const container = document.getElementById('song-list-container');
     const countLabel = document.getElementById('catalog-results-count');
     if (!container) return;
+
+    this.bindSongListEvents();
 
     const songsToRender = this.activeFilteredList.slice(0, this.displayedSongsCount);
     if (countLabel) {
@@ -412,7 +487,8 @@ export class DurgaPujaApp {
     const currentSong = this.queue.getCurrentSong();
     let html = '';
 
-    songsToRender.forEach(song => {
+    for (let i = 0; i < songsToRender.length; i++) {
+      const song = songsToRender[i];
       const isNowPlaying = currentSong && currentSong.id === song.id;
       const isFav = this.favorites.isFavorite(song.id);
       const singersStr = (song.singers || []).join(', ') || 'Various Artists';
@@ -421,7 +497,7 @@ export class DurgaPujaApp {
       html += `
         <div class="song-card ${isNowPlaying ? 'now-playing' : ''}" data-song-id="${song.id}">
           <div class="song-thumb-wrapper">
-            <img class="song-thumb" src="${thumbUrl}" alt="${song.title}" loading="lazy" />
+            <img class="song-thumb" src="${thumbUrl}" alt="${song.title}" width="40" height="40" loading="lazy" decoding="async" />
             <div class="thumb-play-overlay">
               <span>${isNowPlaying ? '❚❚' : '▶'}</span>
             </div>
@@ -445,40 +521,9 @@ export class DurgaPujaApp {
           </div>
         </div>
       `;
-    });
+    }
 
     container.innerHTML = html;
-
-    // Attach row clicks
-    container.querySelectorAll('.song-card').forEach(card => {
-      card.addEventListener('click', (e) => {
-        if (e.target.closest('.btn-card-fav') || e.target.closest('.btn-card-share')) return;
-        const songId = card.dataset.songId;
-        this.playSongById(songId);
-      });
-    });
-
-    // Attach favorite buttons
-    container.querySelectorAll('.btn-card-fav').forEach(btn => {
-      btn.addEventListener('click', (e) => {
-        e.stopPropagation();
-        const songId = btn.dataset.songId;
-        const isFav = this.favorites.toggle(songId);
-        btn.textContent = isFav ? '❤️' : '🤍';
-        btn.classList.toggle('favorited', isFav);
-        ShareManager.showToast(isFav ? 'গানটি আপনার পছন্দের তালিকায় যোগ করা হয়েছে!' : 'পছন্দের তালিকা থেকে বাদ দেওয়া হয়েছে।');
-      });
-    });
-
-    // Attach share buttons
-    container.querySelectorAll('.btn-card-share').forEach(btn => {
-      btn.addEventListener('click', (e) => {
-        e.stopPropagation();
-        const songId = btn.dataset.songId;
-        const song = this.catalog.find(s => s.id === songId);
-        if (song) ShareManager.copySongLink(song);
-      });
-    });
 
     // Manage Load More button
     const loadMoreBtn = document.getElementById('btn-load-more');
@@ -503,7 +548,7 @@ export class DurgaPujaApp {
       this.storage.addRecentlyPlayed(song);
       this.storage.setLastSongId(song.id);
       ShareManager.updateUrlForSong(song.id);
-      this.renderSongList();
+      this.updateNowPlayingCard(song.id);
       this.updateUpNextList();
     }
   }
@@ -515,7 +560,7 @@ export class DurgaPujaApp {
       this.storage.addRecentlyPlayed(next);
       this.storage.setLastSongId(next.id);
       ShareManager.updateUrlForSong(next.id);
-      this.renderSongList();
+      this.updateNowPlayingCard(next.id);
       this.updateUpNextList();
     }
   }
@@ -527,7 +572,7 @@ export class DurgaPujaApp {
       this.storage.addRecentlyPlayed(prev);
       this.storage.setLastSongId(prev.id);
       ShareManager.updateUrlForSong(prev.id);
-      this.renderSongList();
+      this.updateNowPlayingCard(prev.id);
       this.updateUpNextList();
     }
   }
