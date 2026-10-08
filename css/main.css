@@ -228,8 +228,11 @@ html, body {
 }
 
 .countdown-icon {
-  width: 16px;
-  height: 16px;
+  font-size: 1.15rem;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .quote-rotator {

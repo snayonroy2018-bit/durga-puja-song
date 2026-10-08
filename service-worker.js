@@ -3,7 +3,7 @@
  * Caches application shell and visual assets. NEVER caches YouTube video or audio.
  */
 
-const CACHE_NAME = 'durga-puja-song-v3';
+const CACHE_NAME = 'durga-puja-song-v4';
 
 const STATIC_ASSETS = [
   './',
